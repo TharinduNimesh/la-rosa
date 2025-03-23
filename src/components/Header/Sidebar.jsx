@@ -1,10 +1,10 @@
-export function Sidebar() {
+export function Sidebar({ onClose }) {
   return (
-    <div class="lv-header-sidebar-area">
-      <div class="lv-header-sidebar-wrapper">
-        <div class="lv-header-sidebar-action text-end pb-35">
-          <a href="#0">
-            <span class="lv-header-sidebar-close-text">Close</span>
+    <div className="lv-header-sidebar-area">
+      <div className="lv-header-sidebar-wrapper">
+        <div className="lv-header-sidebar-action text-end pb-35">
+          <a href="#0" onClick={(e) => { e.preventDefault(); onClose(); }}>
+            <span className="lv-header-sidebar-close-text">Close</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -20,18 +20,18 @@ export function Sidebar() {
             </svg>
           </a>
         </div>
-        <div class="lv-header-sidebar-logo pb-50">
+        <div className="lv-header-sidebar-logo pb-50">
           <a href="index.html">
             <img src="assets/img/logo/logo-black.png" alt="logo not found" />
           </a>
         </div>
-        <div class="mobile-menu"></div>
-        <div class="lv-footer-touch-widget-box lv-header-sidebar-touch-widget text-center">
-          <h4 class="lv-footer-title">Get in touch</h4>
-          <div class="lv-footer-touch-widget-links pb-20">
+        <div className="mobile-menu"></div>
+        <div className="lv-footer-touch-widget-box lv-header-sidebar-touch-widget text-center">
+          <h4 className="lv-footer-title">Get in touch</h4>
+          <div className="lv-footer-touch-widget-links pb-20">
             <a href="https://envato.bdevstech.com/cdn-cgi/l/email-protection#452c2b232a292a332029202005203d24283529206b262a28">
               <span
-                class="__cf_email__"
+                className="__cf_email__"
                 data-cfemail="6a03040c0506051c0f060f0f2a0f120b071a060f44090507"
               >
                 [email&#160;protected]
@@ -41,7 +41,7 @@ export function Sidebar() {
             <span>Magla Street, New York, USA</span>
           </div>
         </div>
-        <div class="lv-header-sidebar-devider text-center pb-30">
+        <div className="lv-header-sidebar-devider text-center pb-30">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="125"
@@ -74,60 +74,60 @@ export function Sidebar() {
             </g>
           </svg>
         </div>
-        <div class="lv-header-sidebar-official-gallery text-center pb-15">
-          <h4 class="lv-footer-title">official Gallery</h4>
-          <div class="row g-10  pt-20">
-            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
+        <div className="lv-header-sidebar-official-gallery text-center pb-15">
+          <h4 className="lv-footer-title">official Gallery</h4>
+          <div className="row g-10  pt-20">
+            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
               <a href="portfolio-details.html">
                 <div
-                  class="lv-header-sidebar-official-gallery-item mb-10 bg-default"
+                  className="lv-header-sidebar-official-gallery-item mb-10 bg-default"
                   data-background="assets/img/portfolio/s1.jpg"
                 ></div>
               </a>
             </div>
-            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
+            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
               <a href="portfolio-details.html">
                 <div
-                  class="lv-header-sidebar-official-gallery-item mb-10 bg-default"
+                  className="lv-header-sidebar-official-gallery-item mb-10 bg-default"
                   data-background="assets/img/portfolio/s2.jpg"
                 ></div>
               </a>
             </div>
-            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
+            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
               <a href="portfolio-details.html">
                 <div
-                  class="lv-header-sidebar-official-gallery-item mb-10 bg-default"
+                  className="lv-header-sidebar-official-gallery-item mb-10 bg-default"
                   data-background="assets/img/portfolio/s3.jpg"
                 ></div>
               </a>
             </div>
-            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
+            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
               <a href="portfolio-details.html">
                 <div
-                  class="lv-header-sidebar-official-gallery-item mb-10 bg-default"
+                  className="lv-header-sidebar-official-gallery-item mb-10 bg-default"
                   data-background="assets/img/portfolio/s4.jpg"
                 ></div>
               </a>
             </div>
-            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
+            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
               <a href="portfolio-details.html">
                 <div
-                  class="lv-header-sidebar-official-gallery-item mb-10 bg-default"
+                  className="lv-header-sidebar-official-gallery-item mb-10 bg-default"
                   data-background="assets/img/portfolio/s5.jpg"
                 ></div>
               </a>
             </div>
-            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
+            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
               <a href="portfolio-details.html">
                 <div
-                  class="lv-header-sidebar-official-gallery-item mb-10 bg-default"
+                  className="lv-header-sidebar-official-gallery-item mb-10 bg-default"
                   data-background="assets/img/portfolio/s6.jpg"
                 ></div>
               </a>
             </div>
           </div>
         </div>
-        <div class="lv-header-sidebar-devider text-center pb-30">
+        <div className="lv-header-sidebar-devider text-center pb-30">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="125"
@@ -160,9 +160,9 @@ export function Sidebar() {
             </g>
           </svg>
         </div>
-        <div class="footer-widget lv-header-sidebar-widget text-center">
-          <h4 class="lv-footer-title">Follow Us</h4>
-          <div class="lv-footer-social-link">
+        <div className="footer-widget lv-header-sidebar-widget text-center">
+          <h4 className="lv-footer-title">Follow Us</h4>
+          <div className="lv-footer-social-link">
             <a href="#">Facebook</a>
             <a href="#">Twitter</a>
             <a href="#">Instagram</a>
