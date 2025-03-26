@@ -25,11 +25,6 @@
                                           transform="translate(2242 -969)" fill="#fff" />
                                     </svg>
                                  </a>
-                                 <ul class="submenu">
-                                    <li><a href="index">Home Layout 01</a></li>
-                                    <li><a href="index">Home Layout 02</a></li>
-                                    <li><a href="index">Home Layout 03</a></li>
-                                 </ul>
                               </li>
                               <li><a href="about">About
                                     <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
@@ -45,19 +40,6 @@
                                           transform="translate(2242 -969)" fill="#fff" />
                                     </svg>
                                  </a>
-                              </li>
-                              <li>
-                                 <a href="#0">Pages
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
-                                       <path data-name="Path 49"
-                                          d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z"
-                                          transform="translate(2242 -969)" fill="#fff" />
-                                    </svg>
-                                 </a>
-                                 <ul class="submenu">
-                                    <li><a href="team">Team</a></li>
-                                    <li><a href="team-details">Team Details</a></li>
-                                 </ul>
                               </li>
                            </ul>
                         </nav>
@@ -83,11 +65,6 @@
                                           transform="translate(2242 -969)" fill="#fff" />
                                     </svg>
                                  </a>
-                                 <ul class="submenu">
-                                    <li><a href="shop">Shop</a></li>
-                                    <li><a href="shop-details">Shop Details</a></li>
-                                    <li><a href="shop-right-sidebar">Shop Right Sidebar</a></li>
-                                 </ul>
                               </li>
                               <li><a href="portfolio">Portfolio
                                     <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
@@ -96,24 +73,6 @@
                                           transform="translate(2242 -969)" fill="#fff" />
                                     </svg>
                                  </a>
-                                 <ul class="submenu">
-                                    <li><a href="portfolio">Portfolio Layout 01</a></li>
-                                    <li><a href="portfolio">Portfolio Layout 02</a></li>
-                                    <li><a href="portfolio-3">Portfolio Layout 03</a></li>
-                                    <li><a href="portfolio-details">Portfolio Details</a></li>
-                                 </ul>
-                              </li>
-                              <li><a href="blog">News
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
-                                       <path data-name="Path 49"
-                                          d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z"
-                                          transform="translate(2242 -969)" fill="#fff" />
-                                    </svg>
-                                 </a>
-                                 <ul class="submenu">
-                                    <li><a href="blog">News</a></li>
-                                    <li><a href="blog-details">News Details</a></li>
-                                 </ul>
                               </li>
                               <li><a href="contact">Contact
                                     <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
