@@ -13,7 +13,7 @@
                               <h2 class="lv-single-slider-title"  data-animation="fadeInUp">Born to Shine</h2>
                               <p class="lv-single-slider-desc" data-animation="fadeInUp" data-delay=".2s">If you are dreaming about getting married ... you are in the right place!</p>
                               <div class="lv-single-slider-link"  data-delay=".3s" data-animation="fadeInUp">
-                                 <a href="contact.html" class="lv-transparent-btn">
+                                 <a href="contact" class="lv-transparent-btn">
                                     <span class="lv-transparent-horizontal-line"></span>
                                     <span class="lv-transparent-vertical-line"></span>
                                     <span class="lv-transparent-btn-text">Book Now</span>
@@ -30,7 +30,7 @@
                               <h2 class="lv-single-slider-title"  data-animation="fadeInUp">Wedding Planning <br>For Everyone</h2>
                               <p class="lv-single-slider-desc" data-animation="fadeInUp" data-delay=".2s">If you are dreaming about getting married ... you are in the right place!</p>
                               <div class="lv-single-slider-link"  data-delay=".3s" data-animation="fadeInUp">
-                                 <a href="contact.html" class="lv-transparent-btn">
+                                 <a href="contact" class="lv-transparent-btn">
                                     <span class="lv-transparent-horizontal-line"></span>
                                     <span class="lv-transparent-vertical-line"></span>
                                     <span class="lv-transparent-btn-text">Book Now</span>
@@ -47,7 +47,7 @@
                               <h2 class="lv-single-slider-title"  data-animation="fadeInUp">Wedding New <br>For Everyone</h2>
                               <p class="lv-single-slider-desc" data-animation="fadeInUp" data-delay=".2s">If you are dreaming about getting married ... you are in the right place!</p>
                               <div class="lv-single-slider-link"  data-delay=".3s" data-animation="fadeInUp">
-                                 <a href="contact.html" class="lv-transparent-btn">
+                                 <a href="contact" class="lv-transparent-btn">
                                     <span class="lv-transparent-horizontal-line"></span>
                                     <span class="lv-transparent-vertical-line"></span>
                                     <span class="lv-transparent-btn-text">Book Now</span>

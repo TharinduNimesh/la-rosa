@@ -20,61 +20,61 @@
          </div>
          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 grid-item">
             <div class="lv-single-featured-gallery pb-65">
-               <a href="portfolio-details.html">
+               <a href="portfolio-details">
                   <div class="lv-single-featured-gallery-img lv-single-featured-gallery-img-3 bg-default"
                      data-background="assets/img/gallery/gallery-3.jpg">
                   </div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
                   <h5 class="lv-single-featured-gallery-subtitle">Bethany & Sean</h5>
-                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details.html">Piemonte Countryside</a>
+                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Piemonte Countryside</a>
                   </h4>
                </div>
             </div>
          </div>
          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 grid-item">
             <div class="lv-single-featured-gallery pb-65">
-               <a href="portfolio-details.html">
+               <a href="portfolio-details">
                   <div class="lv-single-featured-gallery-img lv-single-featured-gallery-img-1 bg-default"
                      data-background="assets/img/gallery/gallery-1.jpg"></div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
                   <h5 class="lv-single-featured-gallery-subtitle">Anastasiya Manuel</h5>
-                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details.html">Lake Garda - Wedding</a>
+                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Lake Garda - Wedding</a>
                   </h4>
                </div>
             </div>
          </div>
          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 grid-item">
             <div class="lv-single-featured-gallery pb-65">
-               <a href="portfolio-details.html">
+               <a href="portfolio-details">
                   <div class="lv-single-featured-gallery-img lv-single-featured-gallery-img-4 bg-default"
                      data-background="assets/img/gallery/gallery-4.jpg"></div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
                   <h5 class="lv-single-featured-gallery-subtitle">Angela Charlie</h5>
-                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details.html">Wedding in Sicily</a>
+                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Wedding in Sicily</a>
                   </h4>
                </div>
             </div>
          </div>
          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 grid-item">
             <div class="lv-single-featured-gallery pb-65">
-               <a href="portfolio-details.html">
+               <a href="portfolio-details">
                   <div class="lv-single-featured-gallery-img lv-single-featured-gallery-img-2 bg-default"
                      data-background="assets/img/gallery/gallery-2.jpg">
                   </div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
                   <h5 class="lv-single-featured-gallery-subtitle">Jelena Konrad</h5>
-                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details.html">Wedding Roman
+                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Wedding Roman
                         Riviera</a></h4>
                </div>
             </div>
          </div>
          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 grid-item">
             <div class="lv-single-featured-gallery-explore-btn">
-               <a href="portfolio-3.html" class="lv-single-featured-gallery-explore-btn-link">
+               <a href="portfolio" class="lv-single-featured-gallery-explore-btn-link">
                   <span>Explore Gallery</span>
                   <svg class="explore-svg-cirlce">
                      <circle cx="50%" cy="50%" r="45%"></circle>

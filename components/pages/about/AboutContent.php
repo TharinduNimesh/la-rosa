@@ -41,7 +41,7 @@
                         </div>
                     </div>
                     <div class="lv-about-action">
-                        <a href="contact.html" class="lv-theme-btn">
+                        <a href="contact" class="lv-theme-btn">
                             <span class="lv-theme-horizontal-line"></span>
                             <span class="lv-theme-vertical-line"></span>
                             <span>Read More</span>

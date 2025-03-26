@@ -21,11 +21,11 @@
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 mb-30 mb-lg-0">
                <div class="footer-widget">
                   <div class="lv-footer-link-logo-wrap">
-                     <a href="contact.html" class="lv-footer-link-menu">STAB</a>
+                     <a href="contact" class="lv-footer-link-menu">STAB</a>
                      <div class="lv-footer-link-logo">
-                        <a href="index.html"><img src="assets/img/logo/logo-black.png" alt="logo not found"></a>
+                        <a href="index"><img src="assets/img/logo/logo-black.png" alt="logo not found"></a>
                      </div>
-                     <a href="about.html" class="lv-footer-link-menu">2022</a>
+                     <a href="about" class="lv-footer-link-menu">2022</a>
                   </div>
                </div>
             </div>
@@ -52,6 +52,8 @@
 <!-- copyright start -->
 <div class="lv-footer-copyright text-center black-bg">
    <div class="container">
-      <p>©<?php echo date('Y'); ?> Bdevs | ALL RIGHTS RESERVED | Design by <a href="https://www.eversoft.lk/" target="_blank" style="color: #fff; text-decoration: none; border-bottom: 1px dotted #fff;">Eversoft IT Solutions</a></p>
+      <p>©<?php echo date('Y'); ?> LA ROSA FLORA | ALL RIGHTS RESERVED | Design by <a href="https://www.eversoft.lk/"
+            target="_blank" style="color: #fff; text-decoration: none; border-bottom: 1px dotted #fff;">Eversoft IT
+            Solutions</a></p>
    </div>
 </div>

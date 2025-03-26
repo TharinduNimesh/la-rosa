@@ -16,16 +16,16 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="lv-photography-member-social-share">
-                                    <a href="team-details.html">
+                                    <a href="team-details">
                                         <div class="fix">
                                             <div class="lv-photography-img-1-2 bg-default lv-photography-img"
                                                 data-background="assets/img/photography/photography-2.jpg"></div>
                                         </div>
                                     </a>
                                     <div class="lv-photography-member-content text-center">
-                                        <a href="team.html"
+                                        <a href="team"
                                             class="lv-photography-member-designation-link">Photographer</a>
-                                        <h5 class="lv-photography-member-name"><a href="team.html">Queen Sara Jaclin
+                                        <h5 class="lv-photography-member-name"><a href="team">Queen Sara Jaclin
                                             </a></h5>
                                         <div class="lv-photography-member-social-links">
                                             <a href="#">FB</a>
@@ -37,7 +37,7 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="lv-photography-member-social-share">
-                                    <a href="team-details.html">
+                                    <a href="team-details">
                                         <div class="fix">
                                             <div class="lv-photography-img-1-2 bg-default lv-photography-img"
                                                 data-background="assets/img/team/team-3.jpg"></div>
@@ -45,8 +45,8 @@
                                     </a>
                                 </div>
                                 <div class="lv-photography-member-content text-center">
-                                    <a href="team.html" class="lv-photography-member-designation-link">Photographer</a>
-                                    <h5 class="lv-photography-member-name"><a href="team.html">Queen Sara Jaclin </a>
+                                    <a href="team" class="lv-photography-member-designation-link">Photographer</a>
+                                    <h5 class="lv-photography-member-name"><a href="team">Queen Sara Jaclin </a>
                                     </h5>
                                     <div class="lv-photography-member-social-links">
                                         <a href="#">FB</a>
@@ -62,9 +62,9 @@
                                             data-background="assets/img/team/team-5.jpg"></div>
                                     </div>
                                     <div class="lv-photography-member-content text-center">
-                                        <a href="team.html"
+                                        <a href="team"
                                             class="lv-photography-member-designation-link">Photographer</a>
-                                        <h5 class="lv-photography-member-name"><a href="team.html">Queen Sara Jaclin
+                                        <h5 class="lv-photography-member-name"><a href="team">Queen Sara Jaclin
                                             </a></h5>
                                         <div class="lv-photography-member-social-links">
                                             <a href="#">FB</a>
@@ -100,7 +100,7 @@
     <div class="container">
         <div class="lv-section-title-wrap text-center">
             <h2 class="lv-section-title text-white mb-45">Enjoy Your Special Wedding <br>Sweet Moments</h2>
-            <a href="contact.html" class="lv-transparent-btn">
+            <a href="contact" class="lv-transparent-btn">
                 <span class="lv-transparent-horizontal-line"></span>
                 <span class="lv-transparent-vertical-line"></span>
                 <span class="lv-transparent-btn-text">Book Now</span>

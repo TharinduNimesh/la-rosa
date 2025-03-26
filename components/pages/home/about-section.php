@@ -267,7 +267,7 @@
                   </div>
                </div>
                <div class="lv-about-action">
-                  <a href="about.html" class="lv-theme-btn">
+                  <a href="about" class="lv-theme-btn">
                      <span class="lv-theme-horizontal-line"></span>
                      <span class="lv-theme-vertical-line"></span>
                      <span>Read More</span>
