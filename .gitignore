@@ -3,9 +3,6 @@ node_modules/
 dist/
 .vercel/
 
-# PHP files (since we're deploying static HTML)
-*.php
-
 # System files
 .DS_Store
 Thumbs.db

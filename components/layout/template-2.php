@@ -35,14 +35,16 @@
 </head>
 
 <body>
+    <!-- background animation -->
+     <?php include 'components/shared/bgAnimation.php' ?>
     <!-- Load Preloader Component -->
     <?php include 'components/layout/preloader/preloader.php'; ?>
 
     <!-- Load Header Component -->
-    <?php include 'components/layout/header/header.php'; ?>
+    <?php include 'components/layout/header/header-2.php'; ?>
 
     <!-- Load Sidebar Component -->
-    <?php include 'components/layout/sidebar/sidebar.php'; ?>
+    <?php include 'components/layout/sidebar/sidebar-2.php'; ?>
 
     <!-- Main Content -->
     <main>

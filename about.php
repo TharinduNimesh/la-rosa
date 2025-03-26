@@ -16,7 +16,6 @@ include 'components/pages/about/ExploreVision.php';
 include 'components/shared/counter.php';
 include 'components/pages/about/ExperienceSection.php';
 include 'components/pages/about/BrandSection.php';
-include 'components/shared/instagram.php';
 
 $content = ob_get_clean();
 

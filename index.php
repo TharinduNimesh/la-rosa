@@ -20,7 +20,6 @@ include 'components/shared/counter.php';
 include 'components/pages/home/testimonials.php';
 include 'components/pages/home/photography.php';
 include 'components/pages/home/blog.php';
-include 'components/shared/instagram.php';
 // Store the buffered content
 $content = ob_get_clean();
 
