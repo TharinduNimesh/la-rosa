@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
    
-<!-- Mirrored from envato.bdevstech.com/html/lovelee-prv/lovelee/portfolio-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Mar 2025 18:21:58 GMT -->
+<!-- Mirrored from envato.bdevstech.com/html/lovelee-prv/lovelee/portfolio-details by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Mar 2025 18:21:58 GMT -->
 <head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -127,7 +127,7 @@
                </a>
             </div>
             <div class="lv-header-sidebar-logo pb-50">
-               <a href="index.html"><img src="assets/img/logo/logo-black.png" alt="logo not found"></a>
+               <a href="index"><img src="assets/img/logo/logo-black.png" alt="logo not found"></a>
             </div>
             <div class="mobile-menu"></div>
             <div class="lv-footer-touch-widget-box lv-header-sidebar-touch-widget text-center">
@@ -151,32 +151,32 @@
                <h4 class="lv-footer-title">official Gallery</h4>
                <div class="row g-10  pt-20">
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
-                     <a href="portfolio-details.html">
+                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s1.jpg"></div>
                      </a>
                   </div>
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
-                     <a href="portfolio-details.html">
+                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s2.jpg"></div>
                      </a>
                   </div>
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
-                     <a href="portfolio-details.html">
+                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s3.jpg"></div>
                      </a>
                   </div>
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
-                     <a href="portfolio-details.html">
+                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s4.jpg"></div>
                      </a>
                   </div>
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
-                     <a href="portfolio-details.html">
+                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s5.jpg"></div>
                      </a>
                   </div>
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
-                     <a href="portfolio-details.html">
+                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s6.jpg"></div>
                      </a>
                   </div>
@@ -210,7 +210,7 @@
             <div class="row align-items-center">
                <div class="col-xxl-3 col-xl-2 col-lg-2 col-md-6 col-6">
                   <div class="lv-header-logo-3">
-                     <a href="index-3.html"><img src="assets/img/logo/logo-black.png" alt=""></a>
+                     <a href="index-3"><img src="assets/img/logo/logo-black.png" alt=""></a>
                   </div>
                </div>
                <div class="col-xxl-6  col-xl-8 col-lg-8 d-none d-lg-block">
@@ -218,23 +218,23 @@
                      <div class="lv-header-3">
                         <nav id="mobile-menu">
                            <ul class="text-center">
-                              <li><a href="index.html">Home
+                              <li><a href="index">Home
                                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
                                    <path id="Path_49" data-name="Path 49" d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z" transform="translate(2242 -969)" fill="#111"></path>
                                  </svg></a>
                                  <ul class="submenu">
-                                    <li><a href="index.html">Home Layout 01</a></li>
-                                    <li><a href="index-2.html">Home Layout 02</a></li>
-                                    <li><a href="index-3.html">Home Layout 03</a></li>
+                                    <li><a href="index">Home Layout 01</a></li>
+                                    <li><a href="index-2">Home Layout 02</a></li>
+                                    <li><a href="index-3">Home Layout 03</a></li>
                                  </ul>
                               </li>
-                              <li><a href="about.html">About</a></li>
-                              <li><a href="service.html">Service</a></li>
+                              <li><a href="about">About</a></li>
+                              <li><a href="service">Service</a></li>
                               <li><a href="#0">Pages</a></li>
-                              <li><a href="shop.html">SHop</a></li>
-                              <li><a href="portfolio.html">Portfolio</a></li>
-                              <li><a href="blog.html">News</a></li>
-                              <li><a href="contact.html">Contact</a></li>
+                              <li><a href="shop">SHop</a></li>
+                              <li><a href="portfolio">Portfolio</a></li>
+                              <li><a href="blog">News</a></li>
+                              <li><a href="contact">Contact</a></li>
                            </ul>
                         </nav>
                      </div>
@@ -335,7 +335,7 @@
                <div class="row">
                   <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-4">
                      <div class="portfolio-details-navigation-1-4">
-                        <a href="portfolio-details.html"  class="portfolio-nav-link-1-4">
+                        <a href="portfolio-details"  class="portfolio-nav-link-1-4">
                            <svg xmlns="http://www.w3.org/2000/svg" width="30.555" height="7.663" viewBox="0 0 30.555 7.663">
                              <path  data-name="Path 8350" d="M-2237.781,976.5a.547.547,0,0,0,0-.775l-2.4-2.4h28.233a.5.5,0,0,0,.5-.5.5.5,0,0,0-.5-.5h-28.234l2.4-2.4a.545.545,0,0,0,.161-.387.545.545,0,0,0-.161-.388h0a.549.549,0,0,0-.388-.16.548.548,0,0,0-.387.16l-3.284,3.284a.547.547,0,0,0-.16.387.548.548,0,0,0,.16.388l3.284,3.283a.545.545,0,0,0,.387.161A.546.546,0,0,0-2237.781,976.5Z" transform="translate(2242 -969)" fill="#777"/>
                            </svg>
@@ -359,7 +359,7 @@
                   </div>
                   <div class="col-xxl-2 col-xl-2 col-lg-2  col-md-3  col-4">
                      <div class="portfolio-details-navigation-1-4 text-end">
-                        <a href="portfolio-details.html"  class="portfolio-nav-link-1-4 portfolio-nav-link-right">
+                        <a href="portfolio-details"  class="portfolio-nav-link-1-4 portfolio-nav-link-right">
                            <span>Next</span>
                            <svg xmlns="http://www.w3.org/2000/svg" width="30.555" height="7.663" viewBox="0 0 30.555 7.663">
                              <path  data-name="Path 8350" d="M-2215.664,976.5a.547.547,0,0,1,0-.775l2.4-2.4H-2241.5a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5h28.234l-2.4-2.4a.545.545,0,0,1-.161-.387.545.545,0,0,1,.161-.388h0a.549.549,0,0,1,.388-.16.548.548,0,0,1,.387.16l3.284,3.284a.547.547,0,0,1,.16.387.548.548,0,0,1-.16.388l-3.284,3.283a.545.545,0,0,1-.387.161A.546.546,0,0,1-2215.664,976.5Z" transform="translate(2242 -969)" fill="#777"/>
@@ -447,11 +447,11 @@
                      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 mb-30 mb-lg-0">
                         <div class="footer-widget">
                            <div class="lv-footer-link-logo-wrap">
-                              <a href="contact.html" class="lv-footer-link-menu">STAB</a>
+                              <a href="contact" class="lv-footer-link-menu">STAB</a>
                               <div class="lv-footer-link-logo">
-                                 <a href="index.html"><img src="assets/img/logo/logo-black.png" alt="logo not found"></a>
+                                 <a href="index"><img src="assets/img/logo/logo-black.png" alt="logo not found"></a>
                               </div>
-                              <a href="about.html" class="lv-footer-link-menu">2022</a>
+                              <a href="about" class="lv-footer-link-menu">2022</a>
                            </div>
                         </div>
                      </div>
@@ -508,5 +508,5 @@
       <script src="assets/js/main.js"></script>
    </body>
 
-<!-- Mirrored from envato.bdevstech.com/html/lovelee-prv/lovelee/portfolio-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Mar 2025 18:22:02 GMT -->
+<!-- Mirrored from envato.bdevstech.com/html/lovelee-prv/lovelee/portfolio-details by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Mar 2025 18:22:02 GMT -->
 </html>

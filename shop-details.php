@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
    
-<!-- Mirrored from envato.bdevstech.com/html/lovelee-prv/lovelee/shop-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Mar 2025 18:21:46 GMT -->
+<!-- Mirrored from envato.bdevstech.com/html/lovelee-prv/lovelee/shop-details by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Mar 2025 18:21:46 GMT -->
 <head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -127,7 +127,7 @@
                </a>
             </div>
             <div class="lv-header-sidebar-logo pb-50">
-               <a href="index.html"><img src="assets/img/logo/logo-black.png" alt="logo not found"></a>
+               <a href="index"><img src="assets/img/logo/logo-black.png" alt="logo not found"></a>
             </div>
             <div class="mobile-menu"></div>
             <div class="lv-footer-touch-widget-box lv-header-sidebar-touch-widget text-center">
@@ -151,32 +151,32 @@
                <h4 class="lv-footer-title">official Gallery</h4>
                <div class="row g-10  pt-20">
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
-                     <a href="portfolio-details.html">
+                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s1.jpg"></div>
                      </a>
                   </div>
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
-                     <a href="portfolio-details.html">
+                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s2.jpg"></div>
                      </a>
                   </div>
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
-                     <a href="portfolio-details.html">
+                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s3.jpg"></div>
                      </a>
                   </div>
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
-                     <a href="portfolio-details.html">
+                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s4.jpg"></div>
                      </a>
                   </div>
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
-                     <a href="portfolio-details.html">
+                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s5.jpg"></div>
                      </a>
                   </div>
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
-                     <a href="portfolio-details.html">
+                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s6.jpg"></div>
                      </a>
                   </div>
@@ -210,7 +210,7 @@
             <div class="row align-items-center">
                <div class="col-xxl-3 col-xl-2 col-lg-2 col-md-6 col-6">
                   <div class="lv-header-logo-3">
-                     <a href="index-3.html"><img src="assets/img/logo/logo-black.png" alt=""></a>
+                     <a href="index-3"><img src="assets/img/logo/logo-black.png" alt=""></a>
                   </div>
                </div>
                <div class="col-xxl-6  col-xl-8 col-lg-8 d-none d-lg-block">
@@ -218,34 +218,34 @@
                      <div class="lv-header-3">
                         <nav id="mobile-menu">
                            <ul class="text-center">
-                              <li><a href="index-3.html">Home
+                              <li><a href="index-3">Home
                                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
                                    <path data-name="Path 49" d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z" transform="translate(2242 -969)" fill="#111"></path>
                                  </svg></a>
                                  <ul class="submenu">
-                                    <li><a href="index.html">Home Layout 01
+                                    <li><a href="index">Home Layout 01
                                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
                                          <path data-name="Path 49" d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z" transform="translate(2242 -969)" fill="#111"></path>
                                        </svg>
                                     </a></li>
-                                    <li><a href="index-2.html">Home Layout 02
+                                    <li><a href="index-2">Home Layout 02
                                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
                                          <path data-name="Path 49" d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z" transform="translate(2242 -969)" fill="#111"></path>
                                        </svg>
                                     </a></li>
-                                    <li><a href="index-3.html">Home Layout 03
+                                    <li><a href="index-3">Home Layout 03
                                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
                                          <path data-name="Path 49" d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z" transform="translate(2242 -969)" fill="#111"></path>
                                        </svg>
                                     </a></li>
                                  </ul>
                               </li>
-                              <li><a href="about.html">About
+                              <li><a href="about">About
                                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
                                    <path data-name="Path 49" d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z" transform="translate(2242 -969)" fill="#111"></path>
                                  </svg>
                               </a></li>
-                              <li><a href="service.html">Service
+                              <li><a href="service">Service
                                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
                                    <path data-name="Path 49" d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z" transform="translate(2242 -969)" fill="#111"></path>
                                  </svg>
@@ -257,45 +257,45 @@
                                     </svg>
                                  </a>
                                  <ul class="submenu">
-                                    <li><a href="team.html">Team</a></li>
-                                    <li><a href="team-details.html">Team Details</a></li>
+                                    <li><a href="team">Team</a></li>
+                                    <li><a href="team-details">Team Details</a></li>
                                  </ul>
                               </li>
                               <li>
-                                 <a href="shop.html">Shop
+                                 <a href="shop">Shop
                                     <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
                                       <path data-name="Path 49" d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z" transform="translate(2242 -969)" fill="#111"></path>
                                     </svg>
                                  </a>
                                  <ul class="submenu">
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                    <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
+                                    <li><a href="shop">Shop</a></li>
+                                    <li><a href="shop-details">Shop Details</a></li>
+                                    <li><a href="shop-right-sidebar">Shop Right Sidebar</a></li>
                                  </ul>
                               </li>
-                              <li><a href="portfolio.html">Portfolio
+                              <li><a href="portfolio">Portfolio
                                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
                                    <path data-name="Path 49" d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z" transform="translate(2242 -969)" fill="#111"></path>
                                  </svg>
                               </a>
                                  <ul class="submenu">
-                                    <li><a href="portfolio.html">Portfolio Layout 01</a></li>
-                                    <li><a href="portfolio-2.html">Portfolio Layout 02</a></li>
-                                    <li><a href="portfolio-3.html">Portfolio Layout 03</a></li>
-                                    <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                                    <li><a href="portfolio">Portfolio Layout 01</a></li>
+                                    <li><a href="portfolio-2">Portfolio Layout 02</a></li>
+                                    <li><a href="portfolio-3">Portfolio Layout 03</a></li>
+                                    <li><a href="portfolio-details">Portfolio Details</a></li>
                                  </ul>
                               </li>
-                              <li><a href="blog.html">News
+                              <li><a href="blog">News
                                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
                                       <path data-name="Path 49" d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z" transform="translate(2242 -969)" fill="#111"></path>
                                     </svg>
                                  </a>
                                  <ul class="submenu">
-                                    <li><a href="blog.html">News</a></li>
-                                    <li><a href="blog-details.html">News Details</a></li>
+                                    <li><a href="blog">News</a></li>
+                                    <li><a href="blog-details">News Details</a></li>
                                  </ul>
                               </li>
-                              <li><a href="contact.html">Contact
+                              <li><a href="contact">Contact
                                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
                                    <path data-name="Path 49" d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z" transform="translate(2242 -969)" fill="#111"></path>
                                  </svg>
@@ -378,7 +378,7 @@
                   </div>
                   <div class="col-xxl-5 col-xl-5 col-lg-6">
                      <div class="lv-shop-details-right-content-1-7 lv-shop-details-right-content-space-1-7">
-                        <a href="shop.html" class="lv-product-stock-1-7 mb-20">Instock</a>
+                        <a href="shop" class="lv-product-stock-1-7 mb-20">Instock</a>
                         <h4 class="lv-product-stock-title-1-7">Adrianna Queen</h4>
                         <span class="lv-shop-details-price-1-7">£247.00</span>
                         <div class="lv-shop-details-rating mb-30">
@@ -658,7 +658,7 @@
                            <a href="#0" class="lv-product-box-cart-link-1-6">Add to cart</a>
                         </div>
                         <div class="lv-product-box-content-1-6">
-                           <h4 class="lv-product-box-title-1-6"><a href="shop-details.html">MADI LANE BRIDAL</a></h4>
+                           <h4 class="lv-product-box-title-1-6"><a href="shop-details">MADI LANE BRIDAL</a></h4>
                            <div class="lv-product-box-price-1-6"><span>£178.00</span></div>
                         </div>
                      </div>
@@ -670,7 +670,7 @@
                            <a href="#0" class="lv-product-box-cart-link-1-6">Add to cart</a>
                         </div>
                         <div class="lv-product-box-content-1-6">
-                           <h4 class="lv-product-box-title-1-6"><a href="shop-details.html">TALIA CHAMPAGNE</a></h4>
+                           <h4 class="lv-product-box-title-1-6"><a href="shop-details">TALIA CHAMPAGNE</a></h4>
                            <div class="lv-product-box-price-1-6"><span>£247.00</span> <del>£316.00</del></div>
                         </div>
                      </div>
@@ -681,7 +681,7 @@
                            <a href="#0" class="lv-product-box-cart-link-1-6">Add to cart</a>
                         </div>
                         <div class="lv-product-box-content-1-6">
-                           <h4 class="lv-product-box-title-1-6"><a href="shop-details.html">Keyhole Rhinestone</a></h4>
+                           <h4 class="lv-product-box-title-1-6"><a href="shop-details">Keyhole Rhinestone</a></h4>
                            <div class="lv-product-box-price-1-6"><span>£136.00</span></div>
                         </div>
                      </div>
@@ -692,7 +692,7 @@
                            <a href="#0" class="lv-product-box-cart-link-1-6">Add to cart</a>
                         </div>
                         <div class="lv-product-box-content-1-6">
-                           <h4 class="lv-product-box-title-1-6"><a href="shop-details.html">Keyhole Rhinestone</a></h4>
+                           <h4 class="lv-product-box-title-1-6"><a href="shop-details">Keyhole Rhinestone</a></h4>
                            <div class="lv-product-box-price-1-6"><span>£136.00</span></div>
                         </div>
                      </div>
@@ -776,11 +776,11 @@
                      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 mb-30 mb-lg-0">
                         <div class="footer-widget">
                            <div class="lv-footer-link-logo-wrap">
-                              <a href="contact.html" class="lv-footer-link-menu">STAB</a>
+                              <a href="contact" class="lv-footer-link-menu">STAB</a>
                               <div class="lv-footer-link-logo">
-                                 <a href="index.html"><img src="assets/img/logo/logo-black.png" alt="logo not found"></a>
+                                 <a href="index"><img src="assets/img/logo/logo-black.png" alt="logo not found"></a>
                               </div>
-                              <a href="about.html" class="lv-footer-link-menu">2022</a>
+                              <a href="about" class="lv-footer-link-menu">2022</a>
                            </div>
                         </div>
                      </div>
@@ -837,5 +837,5 @@
       <script src="assets/js/main.js"></script>
    </body>
 
-<!-- Mirrored from envato.bdevstech.com/html/lovelee-prv/lovelee/shop-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Mar 2025 18:21:52 GMT -->
+<!-- Mirrored from envato.bdevstech.com/html/lovelee-prv/lovelee/shop-details by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Mar 2025 18:21:52 GMT -->
 </html>

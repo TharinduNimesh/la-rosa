@@ -48,7 +48,7 @@
                      <i class="flaticon flaticon-bride"></i>
                   </div>
                   <div class="lv-service-box-content">
-                     <h5 class="lv-service-box-content-title"><a href="service.html">Wedding Vision</a></h5>
+                     <h5 class="lv-service-box-content-title"><a href="service">Wedding Vision</a></h5>
                      <p>The problem is that you’re not an artist, and every time you try to describe your idea
                         translation. </p>
                   </div>
@@ -60,7 +60,7 @@
                      <i class="flaticon flaticon-wedding-arch"></i>
                   </div>
                   <div class="lv-service-box-content">
-                     <h5 class="lv-service-box-content-title"><a href="service.html">Decoration Plan</a></h5>
+                     <h5 class="lv-service-box-content-title"><a href="service">Decoration Plan</a></h5>
                      <p>Where to find a dream wedding planner how to find wedding inspiration you’ll actually want.</p>
                   </div>
                </div>
@@ -71,7 +71,7 @@
                      <i class="flaticon flaticon-photo-size"></i>
                   </div>
                   <div class="lv-service-box-content">
-                     <h5 class="lv-service-box-content-title"><a href="service.html">Photography</a></h5>
+                     <h5 class="lv-service-box-content-title"><a href="service">Photography</a></h5>
                      <p>The problem is that you’re not an artist, and every time you try to describe your idea
                         translation. </p>
                   </div>
