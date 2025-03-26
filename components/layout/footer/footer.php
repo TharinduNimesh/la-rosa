@@ -23,7 +23,7 @@
                   <div class="lv-footer-link-logo-wrap">
                      <a href="contact" class="lv-footer-link-menu">STAB</a>
                      <div class="lv-footer-link-logo">
-                        <a href="index"><img src="assets/img/logo/logo-black.png" alt="logo not found"></a>
+                        <a href="index"><img src="/assets/img/logo/logo-black.png" alt="logo not found"></a>
                      </div>
                      <a href="about" class="lv-footer-link-menu">2022</a>
                   </div>

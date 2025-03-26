@@ -16,12 +16,12 @@ $topProducts = [
     [
         'title' => 'Sequin Mermaid Gown',
         'price' => '178.00',
-        'image' => 'assets/img/shop/shop-13.jpg'
+        'image' => '/assets/img/shop/shop-13.jpg'
     ],
     [
         'title' => 'FLOWERS EARINGS',
         'price' => '206.00',
-        'image' => 'assets/img/shop/shop-4.jpg'
+        'image' => '/assets/img/shop/shop-4.jpg'
     ],
 ];
 

@@ -7,7 +7,7 @@
             <div class="lv-slider-active swiper-container">
                <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                     <div class="lv-single-slider lv-slider-height bg-default d-flex align-items-center bg-img"  data-imgPosition="50% 50%" data-parallax="scroll"  data-background="assets/img/slider/slider-1.jpg">
+                     <div class="lv-single-slider lv-slider-height bg-default d-flex align-items-center bg-img"  data-imgPosition="50% 50%" data-parallax="scroll"  data-background="/assets/img/slider/slider-1.jpg">
                         <div class="container">
                            <div class="lv-single-slider-content text-center pt-125">
                               <h2 class="lv-single-slider-title"  data-animation="fadeInUp">Born to Shine</h2>
@@ -24,7 +24,7 @@
                      </div>
                   </div>
                   <div class="swiper-slide">
-                     <div class="lv-single-slider lv-slider-height bg-default d-flex align-items-center bg-img"  data-imgPosition="50% 50%"  data-background="assets/img/slider/slider-2.jpg">
+                     <div class="lv-single-slider lv-slider-height bg-default d-flex align-items-center bg-img"  data-imgPosition="50% 50%"  data-background="/assets/img/slider/slider-2.jpg">
                         <div class="container">
                            <div class="lv-single-slider-content text-center pt-125">
                               <h2 class="lv-single-slider-title"  data-animation="fadeInUp">Wedding Planning <br>For Everyone</h2>
@@ -41,7 +41,7 @@
                      </div>
                   </div>
                   <div class="swiper-slide">
-                     <div class="lv-single-slider lv-slider-height bg-default d-flex align-items-center bg-img"   data-imgPosition="50% 50%"    data-background="assets/img/slider/slider-3.jpg">
+                     <div class="lv-single-slider lv-slider-height bg-default d-flex align-items-center bg-img"   data-imgPosition="50% 50%"    data-background="/assets/img/slider/slider-3.jpg">
                         <div class="container">
                            <div class="lv-single-slider-content text-center pt-125">
                               <h2 class="lv-single-slider-title"  data-animation="fadeInUp">Wedding New <br>For Everyone</h2>
@@ -60,9 +60,9 @@
                </div>
             </div>
             <div class="lv-slider-pagination">
-               <div class="swiper-button-prev"><img src="assets/img/path/navigation-prev.png" alt=""></div>
+               <div class="swiper-button-prev"><img src="/assets/img/path/navigation-prev.png" alt=""></div>
                <div class="slider-paginations"></div>
-               <div class="swiper-button-next"><img src="assets/img/path/navigation-next.png" alt=""></div>
+               <div class="swiper-button-next"><img src="/assets/img/path/navigation-next.png" alt=""></div>
             </div>
             <div class="lv-slider-lang lv-slider-lang-pos">
                <a href="#">FB</a>

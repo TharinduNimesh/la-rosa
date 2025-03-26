@@ -16,8 +16,8 @@ function get_base_url() {
     $host = $_SERVER['HTTP_HOST'];
     $script_name = dirname($_SERVER['SCRIPT_NAME']);
     
-    // Remove '/components/error' from the path if present
-    $base_path = str_replace('/components/error', '', $script_name);
+    // Remove 'components/error' from the path if present
+    $base_path = str_replace('components/error', '', $script_name);
     
     return $protocol . $host . $base_path;
 }

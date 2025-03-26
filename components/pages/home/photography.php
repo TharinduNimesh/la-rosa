@@ -9,7 +9,7 @@
                         <p class="mb-0">Every wedding is followed by our team of wedding planners.</p>
                     </div>
                     <div class="lv-photography-img-1-1 bg-default lv-photography-img"
-                        data-background="assets/img/photography/photography-1.jpg"></div>
+                        data-background="/assets/img/photography/photography-1.jpg"></div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-12  mb-30 mb-lg-0 mb-30 mb-md-0">
                     <div class="lv-photography-member-social-active swiper-container">
@@ -19,7 +19,7 @@
                                     <a href="team-details">
                                         <div class="fix">
                                             <div class="lv-photography-img-1-2 bg-default lv-photography-img"
-                                                data-background="assets/img/photography/photography-2.jpg"></div>
+                                                data-background="/assets/img/photography/photography-2.jpg"></div>
                                         </div>
                                     </a>
                                     <div class="lv-photography-member-content text-center">
@@ -40,7 +40,7 @@
                                     <a href="team-details">
                                         <div class="fix">
                                             <div class="lv-photography-img-1-2 bg-default lv-photography-img"
-                                                data-background="assets/img/team/team-3.jpg"></div>
+                                                data-background="/assets/img/team/team-3.jpg"></div>
                                         </div>
                                     </a>
                                 </div>
@@ -59,7 +59,7 @@
                                 <div class="lv-photography-member-social-share">
                                     <div class="fix">
                                         <div class="lv-photography-img-1-2 bg-default lv-photography-img"
-                                            data-background="assets/img/team/team-5.jpg"></div>
+                                            data-background="/assets/img/team/team-5.jpg"></div>
                                     </div>
                                     <div class="lv-photography-member-content text-center">
                                         <a href="team"
@@ -81,13 +81,13 @@
                     <div class="lv-photography-gallery-swiper-carousel pt-145">
                         <div class="lv-testimonial-pagination-nav-wrap lv-common-pagination pb-60">
                             <div class="swiper-button-prev-photography lv-common-pagination-prev-nav"><img
-                                    src="assets/img/path/testimonial-arrow-prev.png" alt=""></div>
+                                    src="/assets/img/path/testimonial-arrow-prev.png" alt=""></div>
                             <div class="testimonial-paginations-photography lv-common-pagination-dots"></div>
                             <div class="swiper-button-next-photography lv-common-pagination-next-nav"><img
-                                    src="assets/img/path/testimonial-arrow-next.png" alt=""></div>
+                                    src="/assets/img/path/testimonial-arrow-next.png" alt=""></div>
                         </div>
                         <div class="lv-photography-swiper-gallery-single lv-photography-swiper-gallery-single-height bg-default"
-                            data-background="assets/img/gallery/gallery-carousel-1.jpg"></div>
+                            data-background="/assets/img/gallery/gallery-carousel-1.jpg"></div>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@
 </div>
 <!-- photography area end -->
 <!-- cta area start -->
-<div class="cta-area bg-default pt-110 pb-115 lv-bg-opacity lv-opacity-5" data-background="assets/img/bg/cta-bg.jpg">
+<div class="cta-area bg-default pt-110 pb-115 lv-bg-opacity lv-opacity-5" data-background="/assets/img/bg/cta-bg.jpg">
     <div class="container">
         <div class="lv-section-title-wrap text-center">
             <h2 class="lv-section-title text-white mb-45">Enjoy Your Special Wedding <br>Sweet Moments</h2>
@@ -114,34 +114,34 @@
     <div class="container">
         <div class="lv-brand-flex-wrap">
             <div class="lv-brand-flex-single">
-                <img src="assets/img/brand/10.png" alt="">
+                <img src="/assets/img/brand/10.png" alt="">
             </div>
             <div class="lv-brand-flex-single">
-                <img src="assets/img/brand/1.png" alt="">
+                <img src="/assets/img/brand/1.png" alt="">
             </div>
             <div class="lv-brand-flex-single">
-                <img src="assets/img/brand/2.png" alt="">
+                <img src="/assets/img/brand/2.png" alt="">
             </div>
             <div class="lv-brand-flex-single">
-                <img src="assets/img/brand/3.png" alt="">
+                <img src="/assets/img/brand/3.png" alt="">
             </div>
             <div class="lv-brand-flex-single">
-                <img src="assets/img/brand/4.png" alt="">
+                <img src="/assets/img/brand/4.png" alt="">
             </div>
             <div class="lv-brand-flex-single">
-                <img src="assets/img/brand/6.png" alt="">
+                <img src="/assets/img/brand/6.png" alt="">
             </div>
             <div class="lv-brand-flex-single">
-                <img src="assets/img/brand/7.png" alt="">
+                <img src="/assets/img/brand/7.png" alt="">
             </div>
             <div class="lv-brand-flex-single">
-                <img src="assets/img/brand/8.png" alt="">
+                <img src="/assets/img/brand/8.png" alt="">
             </div>
             <div class="lv-brand-flex-single">
-                <img src="assets/img/brand/5.png" alt="">
+                <img src="/assets/img/brand/5.png" alt="">
             </div>
             <div class="lv-brand-flex-single">
-                <img src="assets/img/brand/9.png" alt="">
+                <img src="/assets/img/brand/9.png" alt="">
             </div>
         </div>
     </div>

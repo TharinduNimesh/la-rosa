@@ -1,9 +1,3 @@
-<?php
-/**
- * Main Template File
- * This serves as the base layout for all pages
- */
-?>
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -15,36 +9,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.png">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/preloader.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/cursor.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
-    <link rel="stylesheet" href="assets/css/backToTop.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/fontAwesome5Pro.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/preloader.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/meanmenu.css">
+    <link rel="stylesheet" href="/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/assets/css/cursor.css">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="/assets/css/backToTop.css">
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/css/nice-select.css">
+    <link rel="stylesheet" href="/assets/css/fontAwesome5Pro.css">
+    <link rel="stylesheet" href="/assets/css/flaticon.css">
+    <link rel="stylesheet" href="/assets/css/default.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body>
     <!-- background animation -->
-     <?php include 'components/shared/bgAnimation.php' ?>
+     <?php include BASE_PATH . '/components/shared/bgAnimation.php'; ?>
     <!-- Load Preloader Component -->
-    <?php include 'components/layout/preloader/preloader.php'; ?>
+    <?php include BASE_PATH . '/components/layout/preloader/preloader.php'; ?>
 
     <!-- Load Header Component -->
-    <?php include 'components/layout/header/header-2.php'; ?>
+    <?php include BASE_PATH . '/components/layout/header/header-2.php'; ?>
 
     <!-- Load Sidebar Component -->
-    <?php include 'components/layout/sidebar/sidebar-2.php'; ?>
+    <?php include BASE_PATH . '/components/layout/sidebar/sidebar-2.php'; ?>
 
     <!-- Main Content -->
     <main>
@@ -56,9 +50,9 @@
         ?>
     </main>
 
-    <?php include 'components/shared/instagram.php'; ?>
+    <?php include BASE_PATH . '/components/shared/instagram.php'; ?>
     <!-- Load Footer Component -->
-    <?php include 'components/layout/footer/footer.php'; ?>
+    <?php include BASE_PATH . '/components/layout/footer/footer.php'; ?>
 
     <!-- Back to top -->
     <div class="progress-wrap">
@@ -68,23 +62,23 @@
     </div>
 
     <!-- JS here -->
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/meanmenu.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/magnific-popup.min.js"></script>
-    <script src="assets/js/jarallax.min.js"></script>
-    <script src="assets/js/appair.min.js"></script>
-    <script src="assets/js/odometer.min.js"></script>
-    <script src="assets/js/jquery-ui-slider-range.js"></script>
-    <script src="assets/js/cursor.js"></script>
-    <script src="assets/js/backToTop.js"></script>
-    <script src="assets/js/nice-select.min.js"></script>
-    <script src="assets/js/ajax-form.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/meanmenu.js"></script>
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+    <script src="/assets/js/magnific-popup.min.js"></script>
+    <script src="/assets/js/jarallax.min.js"></script>
+    <script src="/assets/js/appair.min.js"></script>
+    <script src="/assets/js/odometer.min.js"></script>
+    <script src="/assets/js/jquery-ui-slider-range.js"></script>
+    <script src="/assets/js/cursor.js"></script>
+    <script src="/assets/js/backToTop.js"></script>
+    <script src="/assets/js/nice-select.min.js"></script>
+    <script src="/assets/js/ajax-form.js"></script>
+    <script src="/assets/js/wow.min.js"></script>
+    <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

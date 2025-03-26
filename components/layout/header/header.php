@@ -49,7 +49,7 @@
                      <div class="lv-header-logo text-center">
                         <div class="lv-header-logo-box">
                            <a href="index">
-                              <img src="assets/img/logo/logo.png" alt="logo">
+                              <img src="/assets/img/logo/logo.png" alt="logo">
                            </a>
                         </div>
                      </div>

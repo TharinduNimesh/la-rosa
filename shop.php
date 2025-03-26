@@ -10,11 +10,11 @@ $page_title = 'Shop | LaRosa - Wedding & Event Planning';
 ob_start();
 
 // Include Shop-specific components
-include 'components/pages/shop/ShopHero.php';
-include 'components/pages/shop/ShopGrid.php';
+include BASE_PATH . '/components/pages/shop/ShopHero.php';
+include BASE_PATH . '/components/pages/shop/ShopGrid.php';
 
 $content = ob_get_clean();
 
 // Include the main template which has the base layout structure
-include 'components/layout/template-2.php';
+include BASE_PATH . '/components/layout/template-2.php';
 ?>

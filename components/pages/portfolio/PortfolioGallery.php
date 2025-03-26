@@ -125,37 +125,37 @@
                 // Gallery items data
                 $galleryItems = [
                     [
-                        'image' => 'assets/img/gallery/gallery-1.jpg',
+                        'image' => '/assets/img/gallery/gallery-1.jpg',
                         'height_class' => 'lv-featured-gallery-height-1',
                         'couple' => 'Bethany & Sean',
                         'location' => 'Piemonte Countryside'
                     ],
                     [
-                        'image' => 'assets/img/gallery/gallery-3.jpg',
+                        'image' => '/assets/img/gallery/gallery-3.jpg',
                         'height_class' => 'lv-featured-gallery-height-2',
                         'couple' => 'Bethany & Sean',
                         'location' => 'Piemonte Countryside'
                     ],
                     [
-                        'image' => 'assets/img/gallery/gallery-4.jpg',
+                        'image' => '/assets/img/gallery/gallery-4.jpg',
                         'height_class' => 'lv-featured-gallery-height-3',
                         'couple' => 'Bethany & Sean',
                         'location' => 'Piemonte Countryside'
                     ],
                     [
-                        'image' => 'assets/img/portfolio/s6.jpg',
+                        'image' => '/assets/img/portfolio/s6.jpg',
                         'height_class' => 'lv-featured-gallery-height-5',
                         'couple' => 'Bethany & Sean',
                         'location' => 'Piemonte Countryside'
                     ],
                     [
-                        'image' => 'assets/img/gallery/gallery-6.jpg',
+                        'image' => '/assets/img/gallery/gallery-6.jpg',
                         'height_class' => 'lv-featured-gallery-height-4',
                         'couple' => 'Bethany & Sean',
                         'location' => 'Piemonte Countryside'
                     ],
                     [
-                        'image' => 'assets/img/gallery/gallery-7.jpg',
+                        'image' => '/assets/img/gallery/gallery-7.jpg',
                         'height_class' => 'lv-featured-gallery-height-6',
                         'couple' => 'Bethany & Sean',
                         'location' => 'Piemonte Countryside'

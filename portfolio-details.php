@@ -9,23 +9,23 @@
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Place favicon.ico in the root directory -->
-      <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+      <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.png">
       <!-- CSS here -->
-      <link rel="stylesheet" href="assets/css/preloader.css">
-      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-      <link rel="stylesheet" href="assets/css/meanmenu.css">
-      <link rel="stylesheet" href="assets/css/animate.min.css">
-      <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-      <link rel="stylesheet" href="assets/css/swiper-bundle.css">
-      <link rel="stylesheet" href="assets/css/backToTop.css">
-      <link rel="stylesheet" href="assets/css/flaticon.css">
-      <link rel="stylesheet" href="assets/css/cursor.css">
-      <link rel="stylesheet" href="assets/css/magnific-popup.css">
-      <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
-      <link rel="stylesheet" href="assets/css/nice-select.css">
-      <link rel="stylesheet" href="assets/css/fontAwesome5Pro.css">
-      <link rel="stylesheet" href="assets/css/default.css">
-      <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="/assets/css/preloader.css">
+      <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/assets/css/meanmenu.css">
+      <link rel="stylesheet" href="/assets/css/animate.min.css">
+      <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+      <link rel="stylesheet" href="/assets/css/swiper-bundle.css">
+      <link rel="stylesheet" href="/assets/css/backToTop.css">
+      <link rel="stylesheet" href="/assets/css/flaticon.css">
+      <link rel="stylesheet" href="/assets/css/cursor.css">
+      <link rel="stylesheet" href="/assets/css/magnific-popup.css">
+      <link rel="stylesheet" href="/assets/css/odometer-theme-default.css">
+      <link rel="stylesheet" href="/assets/css/nice-select.css">
+      <link rel="stylesheet" href="/assets/css/fontAwesome5Pro.css">
+      <link rel="stylesheet" href="/assets/css/default.css">
+      <link rel="stylesheet" href="/assets/css/main.css">
    </head>
    <body>
       <div class="mouseCursor cursor-outer"></div>
@@ -33,81 +33,81 @@
       <div class="lv-about-pata-img-wrap lv-about-body-pata">
          <div class="lv-about-pata-parent">
             <div class="lv-about-pata-rotate">
-               <img class="askew" src="assets/img/path/pata.png" alt="">
+               <img class="askew" src="/assets/img/path/pata.png" alt="">
             </div>
          </div>
          <div class="lv-about-pata-parent">
             <div class="lv-about-pata-rotate">
-               <img class="askew" src="assets/img/path/pata.png" alt="">
+               <img class="askew" src="/assets/img/path/pata.png" alt="">
             </div>
          </div>
          <div class="lv-about-pata-parent">
             <div class="lv-about-pata-rotate">
-               <img class="askew" src="assets/img/path/pata.png" alt="">
+               <img class="askew" src="/assets/img/path/pata.png" alt="">
             </div>
          </div>
          <div class="lv-about-pata-parent">
             <div class="lv-about-pata-rotate">
-               <img class="askew" src="assets/img/path/pata.png" alt="">
+               <img class="askew" src="/assets/img/path/pata.png" alt="">
             </div>
          </div>
          <div class="lv-about-pata-parent">
             <div class="lv-about-pata-rotate">
-               <img class="askew" src="assets/img/path/pata.png" alt="">
+               <img class="askew" src="/assets/img/path/pata.png" alt="">
             </div>
          </div>
          <div class="lv-about-pata-parent">
             <div class="lv-about-pata-rotate">
-               <img class="askew" src="assets/img/path/pata.png" alt="">
+               <img class="askew" src="/assets/img/path/pata.png" alt="">
             </div>
          </div>
          <div class="lv-about-pata-parent">
             <div class="lv-about-pata-rotate">
-               <img class="askew" src="assets/img/path/pata.png" alt="">
+               <img class="askew" src="/assets/img/path/pata.png" alt="">
             </div>
          </div>
          <div class="lv-about-pata-parent">
             <div class="lv-about-pata-rotate">
-               <img class="askew" src="assets/img/path/pata.png" alt="">
+               <img class="askew" src="/assets/img/path/pata.png" alt="">
             </div>
          </div>
          <div class="lv-about-pata-parent">
             <div class="lv-about-pata-rotate">
-               <img class="askew" src="assets/img/path/pata.png" alt="">
+               <img class="askew" src="/assets/img/path/pata.png" alt="">
             </div>
          </div>
          <div class="lv-about-pata-parent">
             <div class="lv-about-pata-rotate">
-               <img class="askew" src="assets/img/path/pata.png" alt="">
+               <img class="askew" src="/assets/img/path/pata.png" alt="">
             </div>
          </div>
          <div class="lv-about-pata-parent">
             <div class="lv-about-pata-rotate">
-               <img class="askew" src="assets/img/path/pata.png" alt="">
+               <img class="askew" src="/assets/img/path/pata.png" alt="">
             </div>
          </div>
          <div class="lv-about-pata-parent">
             <div class="lv-about-pata-rotate">
-               <img class="askew" src="assets/img/path/pata.png" alt="">
+               <img class="askew" src="/assets/img/path/pata.png" alt="">
             </div>
          </div>
          <div class="lv-about-pata-parent">
             <div class="lv-about-pata-rotate">
-               <img class="askew" src="assets/img/path/pata.png" alt="">
+               <img class="askew" src="/assets/img/path/pata.png" alt="">
             </div>
          </div><div class="lv-about-pata-parent">
             <div class="lv-about-pata-rotate">
-               <img class="askew" src="assets/img/path/pata.png" alt="">
+               <img class="askew" src="/assets/img/path/pata.png" alt="">
             </div>
          </div>
          <div class="lv-about-pata-parent">
             <div class="lv-about-pata-rotate">
-               <img class="askew" src="assets/img/path/pata.png" alt="">
+               <img class="askew" src="/assets/img/path/pata.png" alt="">
             </div>
          </div>
          <div class="lv-about-pata-parent">
             <div class="lv-about-pata-rotate">
-               <img class="askew" src="assets/img/path/pata.png" alt="">
+               <img class="askew" src="/assets/img/path/pata.png" alt="">
             </div>
          </div>
       </div>
@@ -127,7 +127,7 @@
                </a>
             </div>
             <div class="lv-header-sidebar-logo pb-50">
-               <a href="index"><img src="assets/img/logo/logo-black.png" alt="logo not found"></a>
+               <a href="index"><img src="/assets/img/logo/logo-black.png" alt="logo not found"></a>
             </div>
             <div class="mobile-menu"></div>
             <div class="lv-footer-touch-widget-box lv-header-sidebar-touch-widget text-center">
@@ -152,32 +152,32 @@
                <div class="row g-10  pt-20">
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
                      <a href="portfolio-details">
-                        <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s1.jpg"></div>
+                        <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="/assets/img/portfolio/s1.jpg"></div>
                      </a>
                   </div>
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
                      <a href="portfolio-details">
-                        <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s2.jpg"></div>
+                        <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="/assets/img/portfolio/s2.jpg"></div>
                      </a>
                   </div>
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
                      <a href="portfolio-details">
-                        <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s3.jpg"></div>
+                        <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="/assets/img/portfolio/s3.jpg"></div>
                      </a>
                   </div>
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
                      <a href="portfolio-details">
-                        <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s4.jpg"></div>
+                        <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="/assets/img/portfolio/s4.jpg"></div>
                      </a>
                   </div>
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
                      <a href="portfolio-details">
-                        <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s5.jpg"></div>
+                        <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="/assets/img/portfolio/s5.jpg"></div>
                      </a>
                   </div>
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
                      <a href="portfolio-details">
-                        <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="assets/img/portfolio/s6.jpg"></div>
+                        <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default" data-background="/assets/img/portfolio/s6.jpg"></div>
                      </a>
                   </div>
                </div>
@@ -210,7 +210,7 @@
             <div class="row align-items-center">
                <div class="col-xxl-3 col-xl-2 col-lg-2 col-md-6 col-6">
                   <div class="lv-header-logo-3">
-                     <a href="index-3"><img src="assets/img/logo/logo-black.png" alt=""></a>
+                     <a href="index-3"><img src="/assets/img/logo/logo-black.png" alt=""></a>
                   </div>
                </div>
                <div class="col-xxl-6  col-xl-8 col-lg-8 d-none d-lg-block">
@@ -262,7 +262,7 @@
       </header>
       <!-- header area end -->
       <!-- breadcrumb area start -->
-         <div class="lv-breadcrumb-area has-breadcrumb-overlay bg-default pt-205 pb-200 mb-120" data-background="assets/img/breadcrumb/breadcrumb-bg.jpg">
+         <div class="lv-breadcrumb-area has-breadcrumb-overlay bg-default pt-205 pb-200 mb-120" data-background="/assets/img/breadcrumb/breadcrumb-bg.jpg">
             <div class="container">
                <div class="row">
                   <div class="col-xxl-12">
@@ -304,29 +304,29 @@
                      <div class="gallery-grids">
                         <div class="row g-15">
                            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 grid-items">
-                              <a class="image-popups" href="assets/img/portfolio-details/p-details-1.jpg"><div class="lv-p-details-grid-item-1-4-1 mb-15 bg-default" data-background="assets/img/portfolio-details/p-details-1.jpg"></div></a>
+                              <a class="image-popups" href="/assets/img/portfolio-details/p-details-1.jpg"><div class="lv-p-details-grid-item-1-4-1 mb-15 bg-default" data-background="/assets/img/portfolio-details/p-details-1.jpg"></div></a>
                            </div>
                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 grid-items">
-                              <a class="image-popups" href="assets/img/portfolio-details/p-details-3.jpg"><div class="lv-p-details-grid-item-1-4-2 mb-15 bg-default" data-background="assets/img/portfolio-details/p-details-3.jpg"></div></a>
+                              <a class="image-popups" href="/assets/img/portfolio-details/p-details-3.jpg"><div class="lv-p-details-grid-item-1-4-2 mb-15 bg-default" data-background="/assets/img/portfolio-details/p-details-3.jpg"></div></a>
                            </div>
                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 grid-items">
                               <div class="row">
                                  <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
-                                    <a class="image-popups" href="assets/img/portfolio/s5.jpg"><div class="lv-p-details-grid-item-1-4-3 mb-15 bg-default" data-background="assets/img/portfolio/s5.jpg"></div></a>
+                                    <a class="image-popups" href="/assets/img/portfolio/s5.jpg"><div class="lv-p-details-grid-item-1-4-3 mb-15 bg-default" data-background="/assets/img/portfolio/s5.jpg"></div></a>
                                  </div>
                                  <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
-                                    <a class="image-popups" href="assets/img/blog/blog-1.jpg"><div class="lv-p-details-grid-item-1-4-3 mb-15 bg-default" data-background="assets/img/blog/blog-1.jpg"></div></a>
+                                    <a class="image-popups" href="/assets/img/blog/blog-1.jpg"><div class="lv-p-details-grid-item-1-4-3 mb-15 bg-default" data-background="/assets/img/blog/blog-1.jpg"></div></a>
                                  </div>
                               </div>
                            </div>
                            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 grid-items">
-                              <a class="image-popups" href="assets/img/portfolio-details/p-details-2.jpg"><div class="lv-p-details-grid-item-1-4-4 mb-15 bg-default" data-background="assets/img/portfolio-details/p-details-2.jpg"></div></a>
+                              <a class="image-popups" href="/assets/img/portfolio-details/p-details-2.jpg"><div class="lv-p-details-grid-item-1-4-4 mb-15 bg-default" data-background="/assets/img/portfolio-details/p-details-2.jpg"></div></a>
                            </div>
                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 grid-items">
-                              <a class="image-popups" href="assets/img/portfolio/s9.jpg"><div class="lv-p-details-grid-item-1-4-3 mb-15 bg-default" data-background="assets/img/portfolio/s9.jpg"></div></a>
+                              <a class="image-popups" href="/assets/img/portfolio/s9.jpg"><div class="lv-p-details-grid-item-1-4-3 mb-15 bg-default" data-background="/assets/img/portfolio/s9.jpg"></div></a>
                            </div>
                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 grid-items">
-                              <a class="image-popups" href="assets/img/portfolio-details/p-details-4.jpg"><div class="lv-p-details-grid-item-1-4-3 mb-15 bg-default" data-background="assets/img/portfolio-details/p-details-4.jpg"></div></a>
+                              <a class="image-popups" href="/assets/img/portfolio-details/p-details-4.jpg"><div class="lv-p-details-grid-item-1-4-3 mb-15 bg-default" data-background="/assets/img/portfolio-details/p-details-4.jpg"></div></a>
                            </div>
                         </div>
                      </div>
@@ -377,42 +377,42 @@
             <div class="container-fluid pl-20 pr-20">
                <div class="row">
                   <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6 mb-30 mb-xl-0">
-                     <div class="lv-instagram-img lv-instagram-img-height bg-default" data-background="assets/img/instagram/insta-1.jpg">
+                     <div class="lv-instagram-img lv-instagram-img-height bg-default" data-background="/assets/img/instagram/insta-1.jpg">
                         <div class="lv-instagram-icon">
                            <a href="#"><i class="fab fa-instagram"></i></a>
                         </div>
                      </div>
                   </div>
                   <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6 mb-30 mb-xl-0">
-                     <div class="lv-instagram-img lv-instagram-img-height bg-default" data-background="assets/img/instagram/insta-2.jpg">
+                     <div class="lv-instagram-img lv-instagram-img-height bg-default" data-background="/assets/img/instagram/insta-2.jpg">
                         <div class="lv-instagram-icon">
                            <a href="#"><i class="fab fa-instagram"></i></a>
                         </div>
                      </div>
                   </div>
                   <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6 mb-30 mb-xl-0">
-                     <div class="lv-instagram-img lv-instagram-img-height bg-default" data-background="assets/img/instagram/insta-3.jpg">
+                     <div class="lv-instagram-img lv-instagram-img-height bg-default" data-background="/assets/img/instagram/insta-3.jpg">
                         <div class="lv-instagram-icon">
                            <a href="#"><i class="fab fa-instagram"></i></a>
                         </div>
                      </div>
                   </div>
                   <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6 mb-30 mb-xl-0">
-                     <div class="lv-instagram-img lv-instagram-img-height bg-default" data-background="assets/img/instagram/insta-4.jpg">
+                     <div class="lv-instagram-img lv-instagram-img-height bg-default" data-background="/assets/img/instagram/insta-4.jpg">
                         <div class="lv-instagram-icon">
                            <a href="#"><i class="fab fa-instagram"></i></a>
                         </div>
                      </div>
                   </div>
                   <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6 mb-30 mb-xl-0">
-                     <div class="lv-instagram-img lv-instagram-img-height bg-default" data-background="assets/img/instagram/insta-5.jpg">
+                     <div class="lv-instagram-img lv-instagram-img-height bg-default" data-background="/assets/img/instagram/insta-5.jpg">
                         <div class="lv-instagram-icon">
                            <a href="#"><i class="fab fa-instagram"></i></a>
                         </div>
                      </div>
                   </div>
                   <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6 mb-30 mb-xl-0">
-                     <div class="lv-instagram-img lv-instagram-img-height bg-default" data-background="assets/img/instagram/insta-6.jpg">
+                     <div class="lv-instagram-img lv-instagram-img-height bg-default" data-background="/assets/img/instagram/insta-6.jpg">
                         <div class="lv-instagram-icon">
                            <a href="#"><i class="fab fa-instagram"></i></a>
                         </div>
@@ -449,7 +449,7 @@
                            <div class="lv-footer-link-logo-wrap">
                               <a href="contact" class="lv-footer-link-menu">STAB</a>
                               <div class="lv-footer-link-logo">
-                                 <a href="index"><img src="assets/img/logo/logo-black.png" alt="logo not found"></a>
+                                 <a href="index"><img src="/assets/img/logo/logo-black.png" alt="logo not found"></a>
                               </div>
                               <a href="about" class="lv-footer-link-menu">2022</a>
                            </div>
@@ -490,22 +490,22 @@
       
 
       <!-- JS here -->
-      <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-      <script src="assets/js/bootstrap.bundle.min.js"></script>
-      <script src="assets/js/meanmenu.js"></script>
-      <script src="assets/js/swiper-bundle.min.js"></script>
-      <script src="assets/js/magnific-popup.min.js"></script>
-      <script src="assets/js/appair.min.js"></script>
-      <script src="assets/js/odometer.min.js"></script>
-      <script src="assets/js/cursor.js"></script>
-      <script src="assets/js/backToTop.js"></script>
-      <script src="assets/js/nice-select.min.js"></script>
-      <script src="assets/js/ajax-form.js"></script>
-      <script src="assets/js/jquery-ui-slider-range.js"></script>
-      <script src="assets/js/wow.min.js"></script>
-      <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-      <script src="assets/js/isotope.pkgd.min.js"></script>
-      <script src="assets/js/main.js"></script>
+      <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/assets/js/vendor/jquery-3.6.0.min.js"></script>
+      <script src="/assets/js/bootstrap.bundle.min.js"></script>
+      <script src="/assets/js/meanmenu.js"></script>
+      <script src="/assets/js/swiper-bundle.min.js"></script>
+      <script src="/assets/js/magnific-popup.min.js"></script>
+      <script src="/assets/js/appair.min.js"></script>
+      <script src="/assets/js/odometer.min.js"></script>
+      <script src="/assets/js/cursor.js"></script>
+      <script src="/assets/js/backToTop.js"></script>
+      <script src="/assets/js/nice-select.min.js"></script>
+      <script src="/assets/js/ajax-form.js"></script>
+      <script src="/assets/js/jquery-ui-slider-range.js"></script>
+      <script src="/assets/js/wow.min.js"></script>
+      <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+      <script src="/assets/js/isotope.pkgd.min.js"></script>
+      <script src="/assets/js/main.js"></script>
    </body>
 
 <!-- Mirrored from envato.bdevstech.com/html/lovelee-prv/lovelee/portfolio-details by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Mar 2025 18:22:02 GMT -->

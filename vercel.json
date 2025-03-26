@@ -1,23 +1,13 @@
 {
-  "version": 2,
   "functions": {
-    "*.php": {
-      "runtime": "vercel-php@0.6.0"
+    "api/*.php": {
+      "runtime": "vercel-php@0.7.3"
     }
   },
   "routes": [
-    { "src": "/assets/(.*)", "dest": "/assets/$1" },
-    { "src": "/(.*)\\.php$", "dest": "/$1.php" },
-    { "src": "^/shop-details$", "dest": "/shop-details.php" },
-    { "src": "^/shop$", "dest": "/shop.php" },
-    { "src": "^/contact$", "dest": "/contact.php" },
-    { "src": "^/about$", "dest": "/about.php" },
-    { "src": "^/portfolio$", "dest": "/portfolio.php" },
-    { "src": "^/portfolio-details$", "dest": "/portfolio-details.php" },
-    { "src": "^/$", "dest": "/index.php" }
+    { "src": "/assets/(.*)", "dest": "/public/assets/$1" },
+    { "src": "/(.*\\.php)", "dest": "/api/index.php" },
+    { "src": "/(.*)", "dest": "/api/index.php" }
   ],
-  "env": {
-    "APP_ENV": "production",
-    "APP_DEBUG": "false"
-  }
+  "outputDirectory": "public"
 }

@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-xxl-6 col-xl-6 col-lg-6 mb-40 mb-lg-0">
                 <div class="lv-about-img-wrap-1-1 pr-30">
-                    <div class="lv-about-img-1-1 bg-default" data-background="assets/img/gallery/gallery-6.jpg"></div>
+                    <div class="lv-about-img-1-1 bg-default" data-background="/assets/img/gallery/gallery-6.jpg"></div>
                 </div>
             </div>
             <div class="col-xxl-6 col-xl-6 col-lg-6">

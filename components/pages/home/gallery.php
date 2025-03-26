@@ -1,11 +1,11 @@
 <div class="featured-gallery-area p-rel pt-120 pb-40">
    <div class="lv-featured-gallery-shape-img-group">
-      <img src="assets/img/bg/gallery-bg-2.png" alt="">
+      <img src="/assets/img/bg/gallery-bg-2.png" alt="">
    </div>
    <div class="lv-featured-gallery-overlay-pos">
       <div class="lv-featured-gallery-overlay lv-featured-gallery-overlay-height" data-bg-color="#F9F9F9">
          <div class="img-1">
-            <img src="assets/img/bg/gallery-bg.png" alt="">
+            <img src="/assets/img/bg/gallery-bg.png" alt="">
          </div>
       </div>
    </div>
@@ -22,7 +22,7 @@
             <div class="lv-single-featured-gallery pb-65">
                <a href="portfolio-details">
                   <div class="lv-single-featured-gallery-img lv-single-featured-gallery-img-3 bg-default"
-                     data-background="assets/img/gallery/gallery-3.jpg">
+                     data-background="/assets/img/gallery/gallery-3.jpg">
                   </div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
@@ -36,7 +36,7 @@
             <div class="lv-single-featured-gallery pb-65">
                <a href="portfolio-details">
                   <div class="lv-single-featured-gallery-img lv-single-featured-gallery-img-1 bg-default"
-                     data-background="assets/img/gallery/gallery-1.jpg"></div>
+                     data-background="/assets/img/gallery/gallery-1.jpg"></div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
                   <h5 class="lv-single-featured-gallery-subtitle">Anastasiya Manuel</h5>
@@ -49,7 +49,7 @@
             <div class="lv-single-featured-gallery pb-65">
                <a href="portfolio-details">
                   <div class="lv-single-featured-gallery-img lv-single-featured-gallery-img-4 bg-default"
-                     data-background="assets/img/gallery/gallery-4.jpg"></div>
+                     data-background="/assets/img/gallery/gallery-4.jpg"></div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
                   <h5 class="lv-single-featured-gallery-subtitle">Angela Charlie</h5>
@@ -62,7 +62,7 @@
             <div class="lv-single-featured-gallery pb-65">
                <a href="portfolio-details">
                   <div class="lv-single-featured-gallery-img lv-single-featured-gallery-img-2 bg-default"
-                     data-background="assets/img/gallery/gallery-2.jpg">
+                     data-background="/assets/img/gallery/gallery-2.jpg">
                   </div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">

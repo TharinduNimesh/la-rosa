@@ -25,7 +25,7 @@ $brandImages = ['7.png', '10.png', '1.png', '2.png', '3.png', '4.png'];
                     <?php foreach ($brandImages as $image): ?>
                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6">
                             <div class="lv-brand-flex-single">
-                                <img src="assets/img/brand/<?php echo $image; ?>" alt="brand logo">
+                                <img src="/assets/img/brand/<?php echo $image; ?>" alt="brand logo">
                             </div>
                         </div>
                     <?php endforeach; ?>

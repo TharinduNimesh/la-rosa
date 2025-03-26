@@ -37,7 +37,7 @@
             <div class="col-xxl-6 col-xl-6 col-lg-6">
                 <div class="lv-experience-right-1-1 pl-70 mt-8">
                     <div class="lv-experience-right-img-1-1 bg-default"
-                        data-background="assets/img/gallery/experience.jpg">
+                        data-background="/assets/img/gallery/experience.jpg">
                         <div class="lv-experience-play-btn-1-1 lv-experience-space-reverce-1-1">
                             <a href="https://www.youtube.com/watch?v=Ebv9_rNb5Ig" class="popup-video">
                                 <i class="fas fa-play"></i>
