@@ -1,7 +1,4 @@
 .git
-.env
-*.log
-/vendor
-.gitignore
-README.md
-/node_modules
+.github
+node_modules
+vendor
