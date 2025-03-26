@@ -52,6 +52,6 @@
 <!-- copyright start -->
 <div class="lv-footer-copyright text-center black-bg">
    <div class="container">
-      <p>©2022 Bdevs | ALL RIGHTS RESERVED</p>
+      <p>©<?php echo date('Y'); ?> Bdevs | ALL RIGHTS RESERVED | Design by <a href="https://www.eversoft.lk/" target="_blank" style="color: #fff; text-decoration: none; border-bottom: 1px dotted #fff;">Eversoft IT Solutions</a></p>
    </div>
 </div>
