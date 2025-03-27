@@ -3,6 +3,9 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
+// Include the configuration file
+require_once __DIR__ . '/../config.php';
+
 $request_uri = $_SERVER['REQUEST_URI'];
 $path = parse_url($request_uri, PHP_URL_PATH);
 
@@ -15,19 +18,18 @@ if (empty($page)) {
     $page = 'index';
 }
 
-// Map pages to their PHP files in the root directory (not in pages subdirectory)
+// Map pages to their PHP files in the root directory
 $pages = [
     'index' => '../index.php',
     'about' => '../about.php',
     'service' => '../service.php',
     'portfolio' => '../portfolio.php',
+    'portfolio-details' => '../portfolio-details.php',
     'shop' => '../shop.php',
+    'shop-details' => '../shop-details.php',
     'contact' => '../contact.php',
     '404' => '../404.php'
 ];
-
-// Define the base path for includes
-define('BASE_PATH', dirname(__DIR__));
 
 // Debug information
 error_log("Requested page: " . $page);

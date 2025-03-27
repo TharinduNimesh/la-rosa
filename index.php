@@ -3,6 +3,7 @@
  * Homepage
  */
 
+require_once __DIR__ . '/config.php';
 // Set page title
 $page_title = 'LaRosa - Wedding & Event Planning';
 

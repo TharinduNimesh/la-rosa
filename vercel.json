@@ -9,6 +9,5 @@
     { "src": "/assets/(.*)", "dest": "/assets/$1" },
     { "src": "/(.*\\.php)", "dest": "/api/index.php" },
     { "src": "/(.*)", "dest": "/api/index.php" }
-  ],
-  "outputDirectory": "public"
+  ]
 }
