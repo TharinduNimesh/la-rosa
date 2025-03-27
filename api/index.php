@@ -15,19 +15,19 @@ if (empty($page)) {
     $page = 'index';
 }
 
-// Map pages to their PHP files
+// Map pages to their PHP files in the root directory (not in pages subdirectory)
 $pages = [
-    'index' => 'pages/index.php',
-    'about' => 'pages/about.php',
-    'service' => 'pages/service.php',
-    'portfolio' => 'pages/portfolio.php',
-    'shop' => 'pages/shop.php',
-    'contact' => 'pages/contact.php',
-    '404' => 'pages/404.php'
+    'index' => '../index.php',
+    'about' => '../about.php',
+    'service' => '../service.php',
+    'portfolio' => '../portfolio.php',
+    'shop' => '../shop.php',
+    'contact' => '../contact.php',
+    '404' => '../404.php'
 ];
 
 // Define the base path for includes
-define('BASE_PATH', __DIR__);
+define('BASE_PATH', dirname(__DIR__));
 
 // Debug information
 error_log("Requested page: " . $page);
@@ -35,17 +35,17 @@ error_log("Base path: " . BASE_PATH);
 
 // Include the requested page if it exists
 if (isset($pages[$page])) {
-    $file_path = BASE_PATH . '/' . $pages[$page];
+    $file_path = __DIR__ . '/' . $pages[$page];
     error_log("Attempting to load: " . $file_path);
     
     if (file_exists($file_path)) {
         include $file_path;
     } else {
         error_log("File not found: " . $file_path);
-        include BASE_PATH . '/pages/404.php';
+        include __DIR__ . '/../index.php'; // Fallback to index if file doesn't exist
     }
 } else {
-    error_log("Page not mapped: " . $page);
-    header("HTTP/1.0 404 Not Found");
-    include BASE_PATH . '/pages/404.php';
+    // If page is not in our map, include the index page
+    include __DIR__ . '/../index.php';
 }
+?>
