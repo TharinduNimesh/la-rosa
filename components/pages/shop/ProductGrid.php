@@ -16,67 +16,67 @@ class ProductGrid {
             [
                 'title' => 'Keyhole Rhinestone',
                 'price' => '136.00',
-                'image' => 'assets/img/shop/shop-1.jpg'
+                'image' => '/assets/img/shop/shop-1.jpg'
             ],
             [
                 'title' => 'TALIA CHAMPAGNE',
                 'price' => '247.00',
                 'oldPrice' => '316.00',
-                'image' => 'assets/img/shop/shop-14.jpg',
+                'image' => '/assets/img/shop/shop-14.jpg',
                 'hot' => true
             ],
             [
                 'title' => 'MADI LANE BRIDAL',
                 'price' => '178.00',
-                'image' => 'assets/img/shop/shop-2.jpg'
+                'image' => '/assets/img/shop/shop-2.jpg'
             ],
             [
                 'title' => 'Adrianna Papell',
                 'price' => '124.00',
-                'image' => 'assets/img/shop/shop-4.jpg'
+                'image' => '/assets/img/shop/shop-4.jpg'
             ],
             [
                 'title' => 'Sequin Mermaid Gown',
                 'price' => '326.00',
-                'image' => 'assets/img/shop/shop-9.jpg'
+                'image' => '/assets/img/shop/shop-9.jpg'
             ],
             [
                 'title' => 'Adrianna Queen',
                 'price' => '258.00',
                 'oldPrice' => '332.00',
-                'image' => 'assets/img/shop/shop-3.jpg'
+                'image' => '/assets/img/shop/shop-3.jpg'
             ],
             [
                 'title' => 'Beaded Blouson',
                 'price' => '278.00',
-                'image' => 'assets/img/shop/shop-12.jpg'
+                'image' => '/assets/img/shop/shop-12.jpg'
             ],
             [
                 'title' => 'Sweet Night Queen',
                 'price' => '247.00',
-                'image' => 'assets/img/shop/shop-6.jpg'
+                'image' => '/assets/img/shop/shop-6.jpg'
             ],
             [
                 'title' => 'Caped Sheath Dress',
                 'price' => '329.00',
-                'image' => 'assets/img/shop/shop-14.jpg'
+                'image' => '/assets/img/shop/shop-14.jpg'
             ],
             [
                 'title' => 'Evening Gown',
                 'price' => '289.00',
-                'image' => 'assets/img/shop/shop-3.jpg',
+                'image' => '/assets/img/shop/shop-3.jpg',
                 'hot' => true
             ],
             [
                 'title' => 'Crystal Embellished',
                 'price' => '345.00',
-                'image' => 'assets/img/shop/shop-8.jpg'
+                'image' => '/assets/img/shop/shop-8.jpg'
             ],
             [
                 'title' => 'Floral Lace Gown',
                 'price' => '299.00',
                 'oldPrice' => '359.00',
-                'image' => 'assets/img/shop/shop-5.jpg'
+                'image' => '/assets/img/shop/shop-5.jpg'
             ]
         ];
 

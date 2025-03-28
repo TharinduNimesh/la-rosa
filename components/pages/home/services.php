@@ -18,7 +18,7 @@
       <div class="row justify-content-center">
          <div class="col-xxl-12 col-xl-11">
             <div class="lv-weiding-video-banner-box p-rel bg-default lv-weiding-video-banner-height"
-               data-background="assets/img/bg/weiding-bg.jpg">
+               data-background="/assets/img/bg/weiding-bg.jpg">
                <div class="lv-weiding-video-banner-pos">
                   <a href="https://www.youtube.com/watch?v=Ea8b8s4QIPM"
                      class="lv-weiding-video-banner-link popup-video p-rel">
@@ -29,7 +29,7 @@
                   </a>
                </div>
                <div class="lv-weiding-video-banner-path">
-                  <img src="assets/img/path/flower-1.png" alt="flower image">
+                  <img src="/assets/img/path/flower-1.png" alt="flower image">
                </div>
             </div>
          </div>

@@ -18,5 +18,5 @@ include_once 'components/pages/contact/ContactMap.php';
 $content = ob_get_clean();
 
 // Include the main template which has the base layout structure
-include 'components/layout/template-2.php';
+include BASE_PATH . '/components/layout/template-2.php';
 ?>

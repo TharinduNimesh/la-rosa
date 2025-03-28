@@ -15,7 +15,7 @@ $instagramImages = [
             <?php foreach ($instagramImages as $image): ?>
                 <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-6 mb-30 mb-xl-0">
                     <div class="lv-instagram-img lv-instagram-img-height bg-default"
-                        data-background="assets/img/instagram/<?php echo $image; ?>">
+                        data-background="/assets/img/instagram/<?php echo $image; ?>">
                         <div class="lv-instagram-icon">
                             <a href="#"><i class="fab fa-instagram"></i></a>
                         </div>

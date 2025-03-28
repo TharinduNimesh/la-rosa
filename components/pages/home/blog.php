@@ -2,7 +2,7 @@
 <div class="blog-area pt-115 p-rel pb-95">
     <div class="lv-blog-shape-wrap">
         <div class="lv-blog-shape-img-1">
-            <img src="assets/img/bg/blog-bg.png" alt="">
+            <img src="/assets/img/bg/blog-bg.png" alt="">
         </div>
     </div>
     <div class="container">
@@ -19,7 +19,7 @@
                 <div class="lv-blog-box">
                     <a href="blog-details">
                         <div class="fix">
-                            <div class="lv-blog-box-img bg-default" data-background="assets/img/blog/blog-1.jpg"></div>
+                            <div class="lv-blog-box-img bg-default" data-background="/assets/img/blog/blog-1.jpg"></div>
                         </div>
                     </a>
                     <div class="lv-blog-box-content">
@@ -37,7 +37,7 @@
                 <div class="lv-blog-box">
                     <a href="blog-details">
                         <div class="fix">
-                            <div class="lv-blog-box-img bg-default" data-background="assets/img/blog/blog-3.jpg"></div>
+                            <div class="lv-blog-box-img bg-default" data-background="/assets/img/blog/blog-3.jpg"></div>
                         </div>
                     </a>
                     <div class="lv-blog-box-content">
@@ -55,7 +55,7 @@
                 <div class="lv-blog-box">
                     <a href="blog-details">
                         <div class="fix">
-                            <div class="lv-blog-box-img bg-default" data-background="assets/img/blog/blog-2.jpg"></div>
+                            <div class="lv-blog-box-img bg-default" data-background="/assets/img/blog/blog-2.jpg"></div>
                         </div>
                     </a>
                     <div class="lv-blog-box-content">

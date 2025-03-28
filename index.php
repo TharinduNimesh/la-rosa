@@ -3,7 +3,6 @@
  * Homepage
  */
 
-require_once __DIR__ . '/config.php';
 // Set page title
 $page_title = 'LaRosa - Wedding & Event Planning';
 
@@ -11,19 +10,19 @@ $page_title = 'LaRosa - Wedding & Event Planning';
 ob_start();
 
 // Include homepage-specific components first
-include __DIR__ . '/components/pages/home/slider.php';
-include __DIR__ . '/components/pages/home/about-section.php';
+include BASE_PATH . '/components/pages/home/slider.php';
+include BASE_PATH . '/components/pages/home/about-section.php';
 
 // Include shared components
-include __DIR__ . '/components/pages/home/services.php';
-include __DIR__ . '/components/pages/home/gallery.php';
-include __DIR__ . '/components/shared/counter.php';
-include __DIR__ . '/components/pages/home/testimonials.php';
-include __DIR__ . '/components/pages/home/photography.php';
-include __DIR__ . '/components/pages/home/blog.php';
+include BASE_PATH . '/components/pages/home/services.php';
+include BASE_PATH . '/components/pages/home/gallery.php';
+include BASE_PATH . '/components/shared/counter.php';
+include BASE_PATH . '/components/pages/home/testimonials.php';
+include BASE_PATH . '/components/pages/home/photography.php';
+include BASE_PATH . '/components/pages/home/blog.php';
 // Store the buffered content
 $content = ob_get_clean();
 
 // Include the main template which has the base layout structure
-include __DIR__ . '/components/layout/template.php';
+include BASE_PATH . '/components/layout/template.php';
 ?>

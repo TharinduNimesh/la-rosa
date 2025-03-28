@@ -4,7 +4,7 @@
       <div class="row align-items-center">
          <div class="col-xxl-3 col-xl-2 col-lg-2 col-md-6 col-6">
             <div class="lv-header-logo-3">
-               <a href="index"><img src="assets/img/logo/logo-black.png" alt=""></a>
+               <a href="index"><img src="/assets/img/logo/logo-black.png" alt=""></a>
             </div>
          </div>
          <div class="col-xxl-6  col-xl-8 col-lg-8 d-none d-lg-block">

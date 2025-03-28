@@ -6,86 +6,86 @@
                <div class="lv-about-pata-img-wrap">
                   <div class="lv-about-pata-parent">
                      <div class="lv-about-pata-rotate">
-                        <img class="askew" src="assets/img/path/pata.png" alt="">
+                        <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
                   <div class="lv-about-pata-parent">
                      <div class="lv-about-pata-rotate">
-                        <img class="askew" src="assets/img/path/pata.png" alt="">
+                        <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
                   <div class="lv-about-pata-parent">
                      <div class="lv-about-pata-rotate">
-                        <img class="askew" src="assets/img/path/pata.png" alt="">
+                        <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
                   <div class="lv-about-pata-parent">
                      <div class="lv-about-pata-rotate">
-                        <img class="askew" src="assets/img/path/pata.png" alt="">
+                        <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
                   <div class="lv-about-pata-parent">
                      <div class="lv-about-pata-rotate">
-                        <img class="askew" src="assets/img/path/pata.png" alt="">
+                        <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
                   <div class="lv-about-pata-parent">
                      <div class="lv-about-pata-rotate">
-                        <img class="askew" src="assets/img/path/pata.png" alt="">
+                        <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
                   <div class="lv-about-pata-parent">
                      <div class="lv-about-pata-rotate">
-                        <img class="askew" src="assets/img/path/pata.png" alt="">
+                        <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
                   <div class="lv-about-pata-parent">
                      <div class="lv-about-pata-rotate">
-                        <img class="askew" src="assets/img/path/pata.png" alt="">
+                        <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
                   <div class="lv-about-pata-parent">
                      <div class="lv-about-pata-rotate">
-                        <img class="askew" src="assets/img/path/pata.png" alt="">
+                        <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
                   <div class="lv-about-pata-parent">
                      <div class="lv-about-pata-rotate">
-                        <img class="askew" src="assets/img/path/pata.png" alt="">
+                        <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
                   <div class="lv-about-pata-parent">
                      <div class="lv-about-pata-rotate">
-                        <img class="askew" src="assets/img/path/pata.png" alt="">
+                        <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
                   <div class="lv-about-pata-parent">
                      <div class="lv-about-pata-rotate">
-                        <img class="askew" src="assets/img/path/pata.png" alt="">
+                        <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
                   <div class="lv-about-pata-parent">
                      <div class="lv-about-pata-rotate">
-                        <img class="askew" src="assets/img/path/pata.png" alt="">
+                        <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
                   <div class="lv-about-pata-parent">
                      <div class="lv-about-pata-rotate">
-                        <img class="askew" src="assets/img/path/pata.png" alt="">
+                        <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
                   <div class="lv-about-pata-parent">
                      <div class="lv-about-pata-rotate">
-                        <img class="askew" src="assets/img/path/pata.png" alt="">
+                        <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
                   <div class="lv-about-pata-parent">
                      <div class="lv-about-pata-rotate">
-                        <img class="askew" src="assets/img/path/pata.png" alt="">
+                        <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
                </div>
-               <img src="assets/img/about/about-1.png" alt="about image">
+               <img src="/assets/img/about/about-1.png" alt="about image">
                <div class="lv-about-love-flower">
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="686.686"
                      height="667.148" viewBox="0 0 686.686 667.148">

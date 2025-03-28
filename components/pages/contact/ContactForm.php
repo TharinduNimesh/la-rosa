@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xxl-4 col-xl-4 col-lg-5 mb-30 mb-lg-0">
-                <div class="lv-contact-img-1-5 bg-default" data-background="assets/img/team/team-6.jpg">
+                <div class="lv-contact-img-1-5 bg-default" data-background="/assets/img/team/team-6.jpg">
                 </div>
             </div>
             <div class="col-xxl-8 col-xl-8  col-lg-5">

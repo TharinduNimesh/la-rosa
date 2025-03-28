@@ -33,7 +33,7 @@
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div class="lv-explore-vision-box-1-1 mb-30">
                     <a href="portfolio-details.php">
-                        <div class="lv-explore-vision-box-img-1-1 bg-default" data-background="assets/img/explore/<?php echo $item['image']; ?>"></div>
+                        <div class="lv-explore-vision-box-img-1-1 bg-default" data-background="/assets/img/explore/<?php echo $item['image']; ?>"></div>
                     </a>
                     <div class="lv-explore-vision-box-content-1-1">
                         <h5 class="lv-explore-vision-box-title-1-1">

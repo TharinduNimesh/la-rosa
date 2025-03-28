@@ -12,7 +12,7 @@
             </a>
         </div>
         <div class="lv-header-sidebar-logo pb-50">
-            <a href="index"><img src="assets/img/logo/logo-black.png" alt="logo not found"></a>
+            <a href="index"><img src="/assets/img/logo/logo-black.png" alt="logo not found"></a>
         </div>
         <div class="mobile-menu"></div>
         <div class="lv-footer-touch-widget-box lv-header-sidebar-touch-widget text-center">
@@ -42,37 +42,37 @@
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default"
-                            data-background="assets/img/portfolio/s1.jpg"></div>
+                            data-background="/assets/img/portfolio/s1.jpg"></div>
                     </a>
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default"
-                            data-background="assets/img/portfolio/s2.jpg"></div>
+                            data-background="/assets/img/portfolio/s2.jpg"></div>
                     </a>
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default"
-                            data-background="assets/img/portfolio/s3.jpg"></div>
+                            data-background="/assets/img/portfolio/s3.jpg"></div>
                     </a>
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default"
-                            data-background="assets/img/portfolio/s4.jpg"></div>
+                            data-background="/assets/img/portfolio/s4.jpg"></div>
                     </a>
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default"
-                            data-background="assets/img/portfolio/s5.jpg"></div>
+                            data-background="/assets/img/portfolio/s5.jpg"></div>
                     </a>
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-6">
                     <a href="portfolio-details">
                         <div class="lv-header-sidebar-official-gallery-item mb-10 bg-default"
-                            data-background="assets/img/portfolio/s6.jpg"></div>
+                            data-background="/assets/img/portfolio/s6.jpg"></div>
                     </a>
                 </div>
             </div>

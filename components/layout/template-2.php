@@ -1,9 +1,3 @@
-<?php
-/**
- * Main Template File
- * This serves as the base layout for all pages
- */
-?>
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -36,15 +30,15 @@
 
 <body>
     <!-- background animation -->
-     <?php include __DIR__ . '/../shared/bgAnimation.php' ?>
+     <?php include BASE_PATH . '/components/shared/bgAnimation.php'; ?>
     <!-- Load Preloader Component -->
-    <?php include __DIR__ . '/preloader/preloader.php'; ?>
+    <?php include BASE_PATH . '/components/layout/preloader/preloader.php'; ?>
 
     <!-- Load Header Component -->
-    <?php include __DIR__ . '/header/header-2.php'; ?>
+    <?php include BASE_PATH . '/components/layout/header/header-2.php'; ?>
 
     <!-- Load Sidebar Component -->
-    <?php include __DIR__ . '/sidebar/sidebar-2.php'; ?>
+    <?php include BASE_PATH . '/components/layout/sidebar/sidebar-2.php'; ?>
 
     <!-- Main Content -->
     <main>
@@ -56,9 +50,9 @@
         ?>
     </main>
 
-    <?php include __DIR__ . '/../shared/instagram.php'; ?>
+    <?php include BASE_PATH . '/components/shared/instagram.php'; ?>
     <!-- Load Footer Component -->
-    <?php include __DIR__ . '/footer/footer.php'; ?>
+    <?php include BASE_PATH . '/components/layout/footer/footer.php'; ?>
 
     <!-- Back to top -->
     <div class="progress-wrap">
