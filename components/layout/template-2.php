@@ -30,7 +30,7 @@
 
 <body>
     <!-- background animation -->
-     <?php include BASE_PATH . '/components/shared/bgAnimation.php'; ?>
+    <?php include BASE_PATH . '/components/shared/bgAnimation.php'; ?>
     <!-- Load Preloader Component -->
     <?php include BASE_PATH . '/components/layout/preloader/preloader.php'; ?>
 
@@ -62,6 +62,7 @@
     </div>
 
     <!-- JS here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="/assets/js/vendor/jquery-3.6.0.min.js"></script>
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/js/meanmenu.js"></script>
