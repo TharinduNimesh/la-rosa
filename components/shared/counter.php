@@ -6,15 +6,15 @@ $counterItems = [
     ],
     [
         'count' => '',
-        'label' => 'Cup of coffee'
+        'label' => 'HAPPY CLIENTS'
     ],
     [
         'count' => '',
-        'label' => 'Sweet Couples'
+        'label' => 'WEDDINGS'
     ],
     [
         'count' => '',
-        'label' => 'BEST BOUQUETS'
+        'label' => 'FLORAL DESIGNS'
     ]
 ];
 ?>

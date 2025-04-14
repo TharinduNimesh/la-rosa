@@ -65,8 +65,7 @@
                <div class="swiper-button-next"><img src="/assets/img/path/navigation-next.png" alt=""></div>
             </div>
             <div class="lv-slider-lang lv-slider-lang-pos">
-               <a href="#">FB</a>
-               <a href="#">TW</a>
-               <a href="#">IN</a>
+               <a href="https://www.facebook.com/share/p/16D9K3M8w3/?mibextid=WC7FNe" target="_blank">FB</a>
+               <a href="https://www.instagram.com/p/DHNS8SNoDo2/?igsh=anFtaHkzZm51MW14" target="_blank">IN</a>
             </div>
          </div>

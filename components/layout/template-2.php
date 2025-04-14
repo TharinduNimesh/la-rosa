@@ -79,6 +79,8 @@
     <script src="/assets/js/wow.min.js"></script>
     <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
     <script src="/assets/js/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/currency-converter.js"></script>
+    <script src="/assets/js/shop-filters.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
 

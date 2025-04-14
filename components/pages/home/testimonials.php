@@ -10,7 +10,7 @@
          <div class="col-xxl-12">
             <div class="lv-section-title-wrap text-center pb-65">
                <h2 class="lv-section-title">Testimonials</h2>
-               <p class="mb-0">Couple's happiness is the best reward for us & these fill our hearts of joy.</p>
+               <p class="mb-0">Our clients' happiness is the best reward for us. Here's what they have to say about their experience.</p>
             </div>
          </div>
       </div>
@@ -25,17 +25,14 @@
                               <img src="/assets/img/testimonial/testimonial-1.png" alt="">
                            </div>
                            <div class="lv-testimonial-content mb-25">
-                              <p>My Partner and I got married a few weeks ago. Were fantastic from the very first moment
-                                 we met, until the very end and your team worked so nothing was too much trouble. The
-                                 incredible site it was mind blowing and everything we anted. So a massive thank you so
-                                 much cause we're very happy.</p>
+                              <p>La Rosa Flora created the wedding of our dreams! From the floral arrangements to the venue decoration, everything was perfect. Their attention to detail and understanding of our vision made the day truly special. The team was incredibly professional and responsive throughout the planning process.</p>
                               <div class="lv-testimonial-bg-img-pos">
                                  <img src="/assets/img/path/testimonial-path-1.png" alt="">
                               </div>
                            </div>
                            <div class="lv-testimonial-author-box text-center">
-                              <h5 class="lv-testimonial-author-name">Salina Gomez</h5>
-                              <span class="lv-testimonial-author-date">14/02/2022</span>
+                              <h5 class="lv-testimonial-author-name">Dinuka & Chathura</h5>
+                              <span class="lv-testimonial-author-date">28/12/2023</span>
                            </div>
                         </div>
                      </div>
@@ -45,17 +42,14 @@
                               <img src="/assets/img/team/team-3.jpg" alt="">
                            </div>
                            <div class="lv-testimonial-content mb-25">
-                              <p>My Partner and I got married a few weeks ago. Were fantastic from the very first moment
-                                 we met, until the very end and your team worked so nothing was too much trouble. The
-                                 incredible site it was mind blowing and everything we anted. So a massive thank you so
-                                 much cause we're very happy.</p>
+                              <p>Our corporate event was elevated to another level thanks to La Rosa Flora. The hall decorations and lighting design were extraordinary, creating the perfect atmosphere for our annual gala. The team was efficient, creative, and delivered beyond our expectations. We'll definitely be working with them again!</p>
                               <div class="lv-testimonial-bg-img-pos">
                                  <img src="/assets/img/path/testimonial-path-1.png" alt="">
                               </div>
                            </div>
                            <div class="lv-testimonial-author-box text-center">
-                              <h5 class="lv-testimonial-author-name">MR. Max John</h5>
-                              <span class="lv-testimonial-author-date">14/02/2022</span>
+                              <h5 class="lv-testimonial-author-name">Eversoft IT Solutions</h5>
+                              <span class="lv-testimonial-author-date">15/09/2023</span>
                            </div>
                         </div>
                      </div>
@@ -65,17 +59,14 @@
                               <img src="/assets/img/team/team-8.jpg" alt="">
                            </div>
                            <div class="lv-testimonial-content mb-25">
-                              <p>My Partner and I got married a few weeks ago. Were fantastic from the very first moment
-                                 we met, until the very end and your team worked so nothing was too much trouble. The
-                                 incredible site it was mind blowing and everything we anted. So a massive thank you so
-                                 much cause we're very happy.</p>
+                              <p>Our gender reveal party was absolutely magical thanks to La Rosa Flora! The team created a stunning setup that surprised everyone, including us! The attention to detail in the decorations and the creative reveals they suggested made our special moment unforgettable. Highly recommend their services for any celebration!</p>
                               <div class="lv-testimonial-bg-img-pos">
                                  <img src="/assets/img/path/testimonial-path-1.png" alt="">
                               </div>
                            </div>
                            <div class="lv-testimonial-author-box text-center">
-                              <h5 class="lv-testimonial-author-name">Salina Gomez</h5>
-                              <span class="lv-testimonial-author-date">14/02/2022</span>
+                              <h5 class="lv-testimonial-author-name">Amali & Supun</h5>
+                              <span class="lv-testimonial-author-date">03/03/2024</span>
                            </div>
                         </div>
                      </div>

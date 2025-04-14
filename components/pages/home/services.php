@@ -4,7 +4,7 @@
          <div class="col-xxl-12">
             <div class="lv-wide-section-title-box">
                <div class="lv-section-title-wrap text-center">
-                  <h2 class="lv-section-title">We determined to live together <br>in every single moment</h2>
+                  <h2 class="lv-section-title">Creating Memorable Moments Since 2018</h2>
                </div>
             </div>
          </div>
@@ -48,9 +48,8 @@
                      <i class="flaticon flaticon-bride"></i>
                   </div>
                   <div class="lv-service-box-content">
-                     <h5 class="lv-service-box-content-title"><a href="service">Wedding Vision</a></h5>
-                     <p>The problem is that you’re not an artist, and every time you try to describe your idea
-                        translation. </p>
+                     <h5 class="lv-service-box-content-title"><a href="service">Wedding Services</a></h5>
+                     <p>Full-service wedding planning including receptions, outdoor weddings, church weddings, and poruwa ceremonies. Let us make your special day unforgettable.</p>
                   </div>
                </div>
             </div>
@@ -60,8 +59,8 @@
                      <i class="flaticon flaticon-wedding-arch"></i>
                   </div>
                   <div class="lv-service-box-content">
-                     <h5 class="lv-service-box-content-title"><a href="service">Decoration Plan</a></h5>
-                     <p>Where to find a dream wedding planner how to find wedding inspiration you’ll actually want.</p>
+                     <h5 class="lv-service-box-content-title"><a href="service">Event Planning</a></h5>
+                     <p>Corporate events, award ceremonies, cocktails, dinner dances, product launches, staff conventions, and gala dinners all expertly planned and executed.</p>
                   </div>
                </div>
             </div>
@@ -71,9 +70,8 @@
                      <i class="flaticon flaticon-photo-size"></i>
                   </div>
                   <div class="lv-service-box-content">
-                     <h5 class="lv-service-box-content-title"><a href="service">Photography</a></h5>
-                     <p>The problem is that you’re not an artist, and every time you try to describe your idea
-                        translation. </p>
+                     <h5 class="lv-service-box-content-title"><a href="service">Special Celebrations</a></h5>
+                     <p>Proposals, gender reveals, birthdays, and bride/groom-to-be parties with personalized themes and décor to create magical moments.</p>
                   </div>
                </div>
             </div>

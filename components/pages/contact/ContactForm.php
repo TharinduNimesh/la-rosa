@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xxl-4 col-xl-4 col-lg-5 mb-30 mb-lg-0">
-                <div class="lv-contact-img-1-5 bg-default" data-background="/assets/img/team/team-6.jpg">
+                <div class="lv-contact-img-1-5 bg-default" style="background-image: url('/assets/img/team/team-6.jpg'); background-size: cover; background-position: center;">
                 </div>
             </div>
             <div class="col-xxl-8 col-xl-8  col-lg-5">
@@ -28,8 +28,10 @@
                             <div class="col-xxl-6">
                                 <div class="lv-contact-single-input-wrap-1-5 mb-20">
                                     <select name="contact-dropdown" id="contact-dropdown">
-                                        <option value="weidding">Wedding</option>
-                                        <option value="Marryd">Marryd</option>
+                                        <option value="wedding">Wedding</option>
+                                        <option value="event">Event Decoration</option>
+                                        <option value="corporate">Corporate</option>
+                                        <option value="bouquet">Bouquet</option>
                                     </select>
                                 </div>
                             </div>

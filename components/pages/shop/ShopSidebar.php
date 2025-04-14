@@ -1,31 +1,35 @@
 <?php
 $categories = [
-    ['name' => 'Long Dresses', 'count' => 13],
-    ['name' => 'Jewelry', 'count' => 8],
-    ['name' => 'Wedding Dresses', 'count' => 2],
+    ['name' => 'All', 'count' => 12],
+    ['name' => 'Bridal', 'count' => 8],
+    ['name' => 'Decorations', 'count' => 12],
+    ['name' => 'Gifts', 'count' => 5],
+    ['name' => 'Events', 'count' => 3],
 ];
 
 $colors = [
-    ['name' => 'Light Brown', 'code' => '#E9D3BC'],
-    ['name' => 'Light Gray', 'code' => '#EBEBEB'],
-    ['name' => 'White', 'code' => '#F6F6F6'],
-    ['name' => 'Light Blue', 'code' => '#E5F2FC'],
+    ['name' => 'All', 'code' => '#e5a87f'],
+    ['name' => 'White', 'code' => '#FFFFFF'],
+    ['name' => 'Pink', 'code' => '#FFC0CB'],
+    ['name' => 'Red', 'code' => '#FF0000'],
+    ['name' => 'Green', 'code' => '#00FF00'],
+    ['name' => 'Yellow', 'code' => '#FFFF00'],
 ];
 
 $topProducts = [
     [
-        'title' => 'Sequin Mermaid Gown',
-        'price' => '178.00',
-        'image' => '/assets/img/shop/shop-13.jpg'
+        'title' => 'Premium Wedding Bouquet',
+        'price' => '18500',
+        'image' => '/assets/img/shop/shop-1.jpg'
     ],
     [
-        'title' => 'FLOWERS EARINGS',
-        'price' => '206.00',
-        'image' => '/assets/img/shop/shop-4.jpg'
+        'title' => 'Decorative Flower Arrangement',
+        'price' => '12500',
+        'image' => '/assets/img/shop/shop-2.jpg'
     ],
 ];
 
-$tags = ['blue', 'bride', 'decoration', 'fashion', 'dress', 'groom', 'jewelry', 'rose', 'wedding', 'white'];
+$tags = ['all', 'bridal', 'decoration', 'flowers', 'wedding', 'event', 'poruwa', 'centerpiece', 'table', 'bouquet', 'gift'];
 ?>
 
 <div class="pl-20 pt-10 lv-widget-left-padding-1-6">
@@ -56,9 +60,11 @@ $tags = ['blue', 'bride', 'decoration', 'fashion', 'dress', 'groom', 'jewelry', 
                 <h4 class="lv-widget-heading-1-6 mb-25">Categories</h4>
                 <div class="lv-widget-categories-list-1-6">
                     <ul>
-                        <?php foreach($categories as $category): ?>
+                        <?php foreach($categories as $index => $category): ?>
                             <li>
-                                <a href="shop"><?php echo $category['name']; ?> (<?php echo $category['count']; ?>)</a>
+                                <a href="#" <?php echo $index === 0 ? 'class="active"' : ''; ?>>
+                                    <?php echo $category['name']; ?> (<?php echo $category['count']; ?>)
+                                </a>
                             </li>
                         <?php endforeach; ?>
                     </ul>
@@ -71,7 +77,7 @@ $tags = ['blue', 'bride', 'decoration', 'fashion', 'dress', 'groom', 'jewelry', 
                 <div class="lv-widget-top-product-list-1-6">
                     <?php foreach($topProducts as $product): ?>
                         <div class="lv-widget-top-product-single-1-6 mb-20">
-                            <a href="portfolio-details">
+                            <a href="shop-details">
                                 <div class="lv-widget-top-product-img-1-6 bg-default theme-bg"
                                     data-background="<?php echo $product['image']; ?>"></div>
                             </a>
@@ -80,7 +86,10 @@ $tags = ['blue', 'bride', 'decoration', 'fashion', 'dress', 'groom', 'jewelry', 
                                     <a href="shop-details"><?php echo $product['title']; ?></a>
                                 </h4>
                                 <div class="lv-product-box-price-1-6">
-                                    <span>£<?php echo $product['price']; ?></span>
+                                    <div class="price-wrapper">
+                                        <span class="price-amount" data-price-lkr="<?php echo $product['price']; ?>"><?php echo number_format($product['price']); ?></span>
+                                        <span class="currency-symbol">LKR</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -93,9 +102,9 @@ $tags = ['blue', 'bride', 'decoration', 'fashion', 'dress', 'groom', 'jewelry', 
                 <h4 class="lv-widget-heading-1-6 mb-25">Filter by Color</h4>
                 <div class="lv-widget-filter-color-list-1-6">
                     <ul>
-                        <?php foreach($colors as $color): ?>
+                        <?php foreach($colors as $index => $color): ?>
                             <li>
-                                <a href="shop">
+                                <a href="#" <?php echo $index === 0 ? 'class="active"' : ''; ?>>
                                     <span class="lv-filter-color-dot-1-6" data-bg-color="<?php echo $color['code']; ?>">
                                     </span> <?php echo $color['name']; ?>
                                 </a>
@@ -109,14 +118,30 @@ $tags = ['blue', 'bride', 'decoration', 'fashion', 'dress', 'groom', 'jewelry', 
             <div class="widget lv-widget widget-category mb-43">
                 <h4 class="lv-widget-heading-1-6 mb-25">Tags</h4>
                 <div class="tagcloud">
-                    <?php foreach($tags as $tag): ?>
-                        <a href="shop"><?php echo $tag; ?></a>
+                    <?php foreach($tags as $index => $tag): ?>
+                        <a href="#" <?php echo $index === 0 ? 'class="active"' : ''; ?>><?php echo $tag; ?></a>
                     <?php endforeach; ?>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<style>
+.lv-widget-categories-list-1-6 a.active,
+.lv-widget-filter-color-list-1-6 a.active,
+.tagcloud a.active {
+    color: #e5a87f;
+    font-weight: 600;
+}
+.tagcloud a.active {
+    background-color: #e5a87f;
+    color: white;
+}
+.lv-widget-filter-color-list-1-6 a.active span {
+    border: 2px solid #e5a87f;
+}
+</style>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {

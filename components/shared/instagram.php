@@ -17,7 +17,7 @@ $instagramImages = [
                     <div class="lv-instagram-img lv-instagram-img-height bg-default"
                         data-background="/assets/img/instagram/<?php echo $image; ?>">
                         <div class="lv-instagram-icon">
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/p/DHNS8SNoDo2/?igsh=anFtaHkzZm51MW14" target="_blank"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>

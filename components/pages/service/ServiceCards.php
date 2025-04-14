@@ -2,33 +2,33 @@
 $services = [
     [
         'icon' => 'flaticon-wedding',
-        'title' => 'Wedding Vision',
-        'description' => "The problem is that you're artist and every time you want."
+        'title' => 'Wedding Planning',
+        'description' => "Full-service wedding planning including receptions, outdoor weddings, church weddings, and traditional poruwa ceremonies."
     ],
     [
         'icon' => 'flaticon-wedding-arch',
-        'title' => 'Decoration',
-        'description' => 'Here starts the partnership with group and Milan office with our planner'
+        'title' => 'Floral Design',
+        'description' => 'Exquisite floral arrangements and decorations for all occasions, from elegant centerpieces to complete venue transformations.'
     ],
     [
         'icon' => 'flaticon-photo-size',
-        'title' => 'Photography',
-        'description' => 'With lot of creativity and the enthusiasm our team style and launch.'
+        'title' => 'Corporate Events',
+        'description' => 'Professional planning for corporate galas, award ceremonies, product launches, staff conventions, and business conferences.'
     ],
     [
         'icon' => 'flaticon-bridesmaid',
-        'title' => 'Modeling',
-        'description' => "The problem is that you're artist and every time you want."
+        'title' => 'Special Celebrations',
+        'description' => "Creative planning for proposals, gender reveals, birthdays, and bride/groom-to-be parties with personalized themes."
     ],
     [
         'icon' => 'flaticon-front-camera',
-        'title' => 'Shooting',
-        'description' => 'Here starts the partnership with group and Milan office with our planner'
+        'title' => 'Venue Styling',
+        'description' => 'Comprehensive venue decoration services including customized dance floors, hall lighting, LED screens, and stage designs.'
     ],
     [
         'icon' => 'flaticon-magic-book',
-        'title' => 'Editorials',
-        'description' => 'With lot of creativity and the enthusiasm our team style and launch.'
+        'title' => 'Event Coordination',
+        'description' => 'Day-of coordination services ensuring your event runs smoothly while you enjoy your special moment stress-free.'
     ]
 ];
 ?>

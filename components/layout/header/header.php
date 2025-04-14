@@ -18,7 +18,7 @@
                         <nav id="mobile-menu">
                            <ul>
                               <li class="active">
-                                 <a href="index">Home
+                                 <a href="/">Home
                                     <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
                                        <path data-name="Path 49"
                                           d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z"
@@ -48,7 +48,7 @@
                   <div class="col-xxl-2 col-xl-2 col-lg-2">
                      <div class="lv-header-logo text-center">
                         <div class="lv-header-logo-box">
-                           <a href="index">
+                           <a href="/">
                               <img src="/assets/img/logo/logo.png" alt="logo">
                            </a>
                         </div>

@@ -127,7 +127,7 @@
                </a>
             </div>
             <div class="lv-header-sidebar-logo pb-50">
-               <a href="index"><img src="/assets/img/logo/logo-black.png" alt="logo not found"></a>
+               <a href="/"><img src="/assets/img/logo/logo-black.png" alt="logo not found"></a>
             </div>
             <div class="mobile-menu"></div>
             <div class="lv-footer-touch-widget-box lv-header-sidebar-touch-widget text-center">
@@ -210,7 +210,7 @@
             <div class="row align-items-center">
                <div class="col-xxl-3 col-xl-2 col-lg-2 col-md-6 col-6">
                   <div class="lv-header-logo-3">
-                     <a href="index-3"><img src="/assets/img/logo/logo-black.png" alt=""></a>
+                     <a href="/-3"><img src="/assets/img/logo/logo-black.png" alt=""></a>
                   </div>
                </div>
                <div class="col-xxl-6  col-xl-8 col-lg-8 d-none d-lg-block">
@@ -218,22 +218,22 @@
                      <div class="lv-header-3">
                         <nav id="mobile-menu">
                            <ul class="text-center">
-                              <li><a href="index-3">Home
+                              <li><a href="/-3">Home
                                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
                                    <path data-name="Path 49" d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z" transform="translate(2242 -969)" fill="#111"></path>
                                  </svg></a>
                                  <ul class="submenu">
-                                    <li><a href="index">Home Layout 01
+                                    <li><a href="/">Home Layout 01
                                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
                                          <path data-name="Path 49" d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z" transform="translate(2242 -969)" fill="#111"></path>
                                        </svg>
                                     </a></li>
-                                    <li><a href="index-2">Home Layout 02
+                                    <li><a href="/-2">Home Layout 02
                                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
                                          <path data-name="Path 49" d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z" transform="translate(2242 -969)" fill="#111"></path>
                                        </svg>
                                     </a></li>
-                                    <li><a href="index-3">Home Layout 03
+                                    <li><a href="/-3">Home Layout 03
                                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="5" viewBox="0 0 44 5">
                                          <path data-name="Path 49" d="M-2222,971.5a2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-2.5,2.5A2.5,2.5,0,0,1-2222,971.5Zm7,.5v-1h17v1Zm-27,0v-1h18v1Z" transform="translate(2242 -969)" fill="#111"></path>
                                        </svg>
@@ -778,7 +778,7 @@
                            <div class="lv-footer-link-logo-wrap">
                               <a href="contact" class="lv-footer-link-menu">STAB</a>
                               <div class="lv-footer-link-logo">
-                                 <a href="index"><img src="/assets/img/logo/logo-black.png" alt="logo not found"></a>
+                                 <a href="/"><img src="/assets/img/logo/logo-black.png" alt="logo not found"></a>
                               </div>
                               <a href="about" class="lv-footer-link-menu">2022</a>
                            </div>

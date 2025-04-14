@@ -3,6 +3,11 @@
  * Homepage
  */
 
+// Define the base path if not already defined
+if (!defined('BASE_PATH')) {
+    define('BASE_PATH', __DIR__);
+}
+
 // Set page title
 $page_title = 'LaRosa - Wedding & Event Planning';
 

@@ -14,8 +14,7 @@
          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 grid-item pb-65">
             <div class="lv-section-title-wrap">
                <h2 class="lv-section-title">Featured Gallery</h2>
-               <p class="mb-0">Some of the unforgettable weddings we planned all over the <br>world to see what we do
-                  best.</p>
+               <p class="mb-0">Discover some of our most memorable events and celebrations we've created since 2018.</p>
             </div>
          </div>
          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 grid-item">
@@ -26,8 +25,8 @@
                   </div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
-                  <h5 class="lv-single-featured-gallery-subtitle">Bethany & Sean</h5>
-                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Piemonte Countryside</a>
+                  <h5 class="lv-single-featured-gallery-subtitle">Wedding Reception</h5>
+                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Shanaka & Dilini</a>
                   </h4>
                </div>
             </div>
@@ -39,8 +38,8 @@
                      data-background="/assets/img/gallery/gallery-1.jpg"></div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
-                  <h5 class="lv-single-featured-gallery-subtitle">Anastasiya Manuel</h5>
-                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Lake Garda - Wedding</a>
+                  <h5 class="lv-single-featured-gallery-subtitle">Poruwa Ceremony</h5>
+                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Thisara & Nadeeka</a>
                   </h4>
                </div>
             </div>
@@ -52,8 +51,8 @@
                      data-background="/assets/img/gallery/gallery-4.jpg"></div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
-                  <h5 class="lv-single-featured-gallery-subtitle">Angela Charlie</h5>
-                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Wedding in Sicily</a>
+                  <h5 class="lv-single-featured-gallery-subtitle">Corporate Gala</h5>
+                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Annual Awards Night</a>
                   </h4>
                </div>
             </div>
@@ -66,9 +65,8 @@
                   </div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
-                  <h5 class="lv-single-featured-gallery-subtitle">Jelena Konrad</h5>
-                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Wedding Roman
-                        Riviera</a></h4>
+                  <h5 class="lv-single-featured-gallery-subtitle">Outdoor Wedding</h5>
+                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Sachith & Amaya</a></h4>
                </div>
             </div>
          </div>

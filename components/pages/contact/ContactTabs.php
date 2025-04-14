@@ -13,9 +13,7 @@
                         <div class="nav" id="nav-tab" role="tablist">
                             <button class="active" id="nav-sri-lanka-tab" data-bs-toggle="tab"
                                 data-bs-target="#sri-lanka" type="button" role="tab" aria-controls="sri-lanka"
-                                aria-selected="true">Sri
-                                Lanka</button>
-                            <!-- <button id="nav-manchester-tab" data-bs-toggle="tab" data-bs-target="#manchester" type="button" role="tab" aria-controls="manchester" aria-selected="false">Manchester</button> -->
+                                aria-selected="true">Sri Lanka</button>
                         </div>
                     </nav>
                 </div>
@@ -48,8 +46,8 @@
                                         <div class="get-in-touch-box-content-1-5">
                                             <h5 class="get-in-touch-box-title-1-5">Phone</h5>
                                             <div class="get-in-touch-box-links-1-5">
-                                                <a href="tel:88487365254">(+88) 487 - 365 - 254</a>
-                                                <a href="tel:88587698202">(+88) 587 - 698 - 202</a>
+                                                <a href="https://wa.me/94775033375" target="_blank">(+94) 77 503 3375</a>
+                                                <a href="https://wa.me/94775036366" target="_blank">(+94) 77 503 6366</a>
                                             </div>
                                         </div>
                                     </div>
@@ -74,8 +72,7 @@
                                         <div class="get-in-touch-box-content-1-5">
                                             <h5 class="get-in-touch-box-title-1-5">Email</h5>
                                             <div class="get-in-touch-box-links-1-5">
-                                                <a href="mailto:info@larosa.com">info@larosa.com</a>
-                                                <a href="mailto:support@larosa.com">support@larosa.com</a>
+                                                <a href="mailto:larosaflora00@gmail.com">larosaflora00@gmail.com</a>
                                             </div>
                                         </div>
                                     </div>
@@ -99,8 +96,8 @@
                                         <div class="get-in-touch-box-content-1-5">
                                             <h5 class="get-in-touch-box-title-1-5">Location</h5>
                                             <div class="get-in-touch-box-links-1-5">
-                                                <span>56785 Brainson Stree</span>
-                                                <span>New York, USA</span>
+                                                <span>147, Ambathale Road</span>
+                                                <span>Kelanimulla, Angoda</span>
                                             </div>
                                         </div>
                                     </div>

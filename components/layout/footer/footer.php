@@ -6,9 +6,8 @@
                <div class="footer-widget text-center pl-55 pr-55">
                   <h4 class="lv-footer-title">Follow Us</h4>
                   <div class="lv-footer-social-link">
-                     <a href="#">Facebook</a>
-                     <a href="#">Twitter</a>
-                     <a href="#">Instagram</a>
+                     <a href="https://www.facebook.com/share/p/16D9K3M8w3/?mibextid=WC7FNe" target="_blank">Facebook</a>
+                     <a href="https://www.instagram.com/p/DHNS8SNoDo2/?igsh=anFtaHkzZm51MW14" target="_blank">Instagram</a>
                   </div>
                   <div class="lv-footer-subscribe-form">
                      <form action="#">
@@ -21,11 +20,11 @@
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 mb-30 mb-lg-0">
                <div class="footer-widget">
                   <div class="lv-footer-link-logo-wrap">
-                     <a href="contact" class="lv-footer-link-menu">STAB</a>
+                     <a href="about" class="lv-footer-link-menu">SINCE 2018</a>
                      <div class="lv-footer-link-logo">
-                        <a href="index"><img src="/assets/img/logo/logo-black.png" alt="logo not found"></a>
+                        <a href="/"><img src="/assets/img/logo/logo-black.png" alt="La Rosa Flora"></a>
                      </div>
-                     <a href="about" class="lv-footer-link-menu">2022</a>
+                     <a href="contact" class="lv-footer-link-menu">CONTACT</a>
                   </div>
                </div>
             </div>
@@ -34,12 +33,10 @@
                   <div class="lv-footer-touch-widget-box text-center">
                      <h4 class="lv-footer-title">Get in touch</h4>
                      <div class="lv-footer-touch-widget-links">
-                        <a
-                           href="https://envato.bdevstech.com/cdn-cgi/l/email-protection#8ae3e4ece5e6e5fcefe6efefcaeff2ebe7fae6efa4e9e5e7"><span
-                              class="__cf_email__"
-                              data-cfemail="7d14131b1211120b181118183d18051c100d1118531e1210">[email&#160;protected]</span></a>
-                        <a href="tel:+88587985598">(+88) 587 - 985 -598</a>
-                        <span>Magla Street, New York, USA</span>
+                        <a href="mailto:larosaflora00@gmail.com">larosaflora00@gmail.com</a>
+                        <a href="tel:+94775033375">(+94) 77 503 3375</a>
+                        <a href="tel:+94775036366">(+94) 77 503 6366</a>
+                        <span>147, Ambathale Road, Kelanimulla, Angoda</span>
                      </div>
                   </div>
                </div>

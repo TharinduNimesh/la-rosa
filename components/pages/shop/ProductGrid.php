@@ -14,30 +14,31 @@ class ProductGrid {
     public function __construct() {
         $this->products = [
             [
-                'title' => 'Keyhole Rhinestone',
-                'price' => '136.00',
-                'image' => '/assets/img/shop/shop-1.jpg'
+                'title' => 'Wedding Flower Bouquet',
+                'price' => '15000',
+                'image' => '/assets/img/shop/shop-1.jpg',
+                'hot' => true
             ],
             [
-                'title' => 'TALIA CHAMPAGNE',
-                'price' => '247.00',
-                'oldPrice' => '316.00',
+                'title' => 'Floral Centerpiece',
+                'price' => '8500',
+                'oldPrice' => '9800',
                 'image' => '/assets/img/shop/shop-14.jpg',
                 'hot' => true
             ],
             [
-                'title' => 'MADI LANE BRIDAL',
-                'price' => '178.00',
+                'title' => 'Premium Rose Arrangement',
+                'price' => '12000',
                 'image' => '/assets/img/shop/shop-2.jpg'
             ],
             [
-                'title' => 'Adrianna Papell',
-                'price' => '124.00',
+                'title' => 'Bridal Hair Accessory',
+                'price' => '5500',
                 'image' => '/assets/img/shop/shop-4.jpg'
             ],
             [
-                'title' => 'Sequin Mermaid Gown',
-                'price' => '326.00',
+                'title' => 'Poruwa Ceremony Package',
+                'price' => '65000',
                 'image' => '/assets/img/shop/shop-9.jpg'
             ],
             [
@@ -108,7 +109,7 @@ class ProductGrid {
 
     public function renderProduct($product) {
         $hotBadge = isset($product['hot']) && $product['hot'] ? '<div class="lv-product-box-badge-1-6">Hot</div>' : '';
-        $oldPrice = isset($product['oldPrice']) ? ' <del>£' . $product['oldPrice'] . '</del>' : '';
+        $oldPrice = isset($product['oldPrice']) ? '<del><span class="price-amount" data-price-lkr="' . $product['oldPrice'] . '">' . number_format($product['oldPrice']) . '</span> <span class="currency-symbol">LKR</span></del>' : '';
         ?>
         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6">
             <div class="lv-product-box-1-6 text-center mb-50">
@@ -118,7 +119,13 @@ class ProductGrid {
                 </div>
                 <div class="lv-product-box-content-1-6">
                     <h4 class="lv-product-box-title-1-6"><a href="shop-details"><?php echo $product['title']; ?></a></h4>
-                    <div class="lv-product-box-price-1-6"><span>£<?php echo $product['price']; ?></span><?php echo $oldPrice; ?></div>
+                    <div class="lv-product-box-price-1-6">
+                        <div class="price-wrapper">
+                            <span class="price-amount" data-price-lkr="<?php echo $product['price']; ?>"><?php echo number_format($product['price']); ?></span>
+                            <span class="currency-symbol">LKR</span>
+                        </div>
+                        <?php echo $oldPrice; ?>
+                    </div>
                 </div>
             </div>
         </div>

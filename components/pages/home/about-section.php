@@ -79,11 +79,6 @@
                         <img class="askew" src="/assets/img/path/pata.png" alt="">
                      </div>
                   </div>
-                  <div class="lv-about-pata-parent">
-                     <div class="lv-about-pata-rotate">
-                        <img class="askew" src="/assets/img/path/pata.png" alt="">
-                     </div>
-                  </div>
                </div>
                <img src="/assets/img/about/about-1.png" alt="about image">
                <div class="lv-about-love-flower">
@@ -237,17 +232,23 @@
          <div class="col-xxl-6 col-xl-6 col-lg-6">
             <div class="lv-about-content-right">
                <div class="lv-about-content-wrap">
-                  <h3 class="lv-section-title mb-10">We inspire you to bring wedding to real life</h3>
-                  <p class="lv-about-content mb-35">We know this is one of the most important days of your life, and you
-                     need to hire a wedding planner whom you can trust respect. Most importantly, you need to hire a
-                     company that allows you to enjoy every minute of your wedding planning company be that company for
-                     you!</p>
+                  <h3 class="lv-section-title mb-10">We inspire you to bring special moments to real life</h3>
+                  <p class="lv-about-content mb-35">La Rosa Flora is a premier event planning and floral design company
+                     established in 2018. We understand that your special day requires a trusted partner who respects
+                     your vision. From weddings and corporate events to intimate celebrations, we create unforgettable
+                     experiences tailored to your unique style and preferences.</p>
                </div>
                <div class="lv-about-blue-point-wrap mb-40">
                   <div class="row">
                      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                         <div class="lv-about-blue-point-left">
-                           <h4 class="lv-about-blue-point-title"><span>18+</span> Years<br> Real Experiences</h4>
+                           <?php
+                           $currentYear = date("Y");
+                           $establishedYear = 2018;
+                           $yearsOfExperience = $currentYear - $establishedYear;
+                           ?>
+                           <h4 class="lv-about-blue-point-title"><span><?php echo $yearsOfExperience; ?>+</span>
+                              Years<br> Real Experiences</h4>
                         </div>
                      </div>
                      <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8">

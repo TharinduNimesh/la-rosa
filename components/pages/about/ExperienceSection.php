@@ -5,16 +5,15 @@
             <div class="col-xxl-6 col-xl-6 col-lg-6">
                 <div class="lv-experience-left-1-1 pr-70 mb-50 mb-lg-0">
                     <div class="lv-section-title-wrap mb-20">
-                        <h2 class="lv-section-title lv-section-title-1-1 mb-10">Experience and skill make us great </h2>
-                        <p class="mb-0">The problem is that you're not an artist, and every time you<br> try to describe
-                            your idea translation.</p>
+                        <h2 class="lv-section-title lv-section-title-1-1 mb-10">Experience and skill since 2018</h2>
+                        <p class="mb-0">Our talented team combines creativity, passion, and technical<br> expertise to create memorable experiences for our clients.</p>
                     </div>
                     <?php
                     $skills = [
-                        ['name' => 'Photography', 'percentage' => 80],
-                        ['name' => 'Planing', 'percentage' => 60],
-                        ['name' => 'Location Set', 'percentage' => 90],
-                        ['name' => 'Decoration', 'percentage' => 50]
+                        ['name' => 'Floral Design', 'percentage' => 95],
+                        ['name' => 'Event Planning', 'percentage' => 90],
+                        ['name' => 'Venue Decoration', 'percentage' => 85],
+                        ['name' => 'Custom Themes', 'percentage' => 80]
                     ];
                     ?>
                     <div class="lv-experience-progress-1-1">

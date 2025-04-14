@@ -12,18 +12,15 @@
          </a>
       </div>
       <div class="lv-header-sidebar-logo pb-50">
-         <a href="index"><img src="/assets/img/logo/logo-black.png" alt="logo not found"></a>
+         <a href="/"><img src="/assets/img/logo/logo-black.png" alt="logo not found"></a>
       </div>
       <div class="mobile-menu"></div>
       <div class="lv-footer-touch-widget-box lv-header-sidebar-touch-widget text-center">
          <h4 class="lv-footer-title">Get in touch</h4>
          <div class="lv-footer-touch-widget-links pb-20">
-            <a
-               href="https://envato.bdevstech.com/cdn-cgi/l/email-protection#452c2b232a292a332029202005203d24283529206b262a28"><span
-                  class="__cf_email__"
-                  data-cfemail="6a03040c0506051c0f060f0f2a0f120b071a060f44090507">[email&#160;protected]</span></a>
-            <a href="tel:+88587985598">(+88) 587 - 985 -598</a>
-            <span>Magla Street, New York, USA</span>
+            <a href="mailto:larosaflora00@gmail.com">larosaflora00@gmail.com</a>
+            <a href="tel:+94775033375">(+94) 77 503 3375</a>
+            <span>147, Ambathale Road, Kelanimulla, Angoda</span>
          </div>
       </div>
       <div class="lv-header-sidebar-devider text-center pb-30">
@@ -88,9 +85,8 @@
       <div class="footer-widget lv-header-sidebar-widget text-center">
          <h4 class="lv-footer-title">Follow Us</h4>
          <div class="lv-footer-social-link">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
+            <a href="https://www.facebook.com/share/p/16D9K3M8w3/?mibextid=WC7FNe">Facebook</a>
+            <a href="https://www.instagram.com/p/DHNS8SNoDo2/?igsh=anFtaHkzZm51MW14">Instagram</a>
          </div>
       </div>
    </div>

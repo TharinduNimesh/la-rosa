@@ -1,36 +1,36 @@
 <?php
 $pricingPlans = [
     [
-        'type' => 'Standard',
-        'price' => '459',
+        'type' => 'Basic Wedding',
+        'price' => '250,000',
         'features' => [
-            'Relaxing Message',
-            'Manicure Pedicure',
-            'Body Polish',
-            'Pizza Party',
-            'Face Treatment'
+            'Floral Decorations',
+            'Poruwa Setup',
+            'Basic Venue Decoration',
+            'Consultation Services',
+            'Day-of Coordination'
         ]
     ],
     [
-        'type' => 'Platinum',
-        'price' => '879',
+        'type' => 'Luxury Wedding',
+        'price' => '450,000',
         'features' => [
-            'Body Polish',
-            'Relaxing Message',
-            'Manicure Pedicure',
-            'Pizza Party',
-            'Face Treatment'
+            'Premium Floral Arrangements',
+            'Poruwa & Reception Decor',
+            'Customized Theme Design',
+            'Full Planning Services',
+            'Photography Coordination'
         ]
     ],
     [
-        'type' => 'Diamond',
-        'price' => '999',
+        'type' => 'Full Package',
+        'price' => '750,000',
         'features' => [
-            'Complete Package',
-            'Premium Support',
-            'Luxury Experience',
-            'VIP Treatment',
-            'Special Benefits'
+            'Complete Event Design',
+            'Premium Venue Decoration',
+            'VIP Coordination Services',
+            'Exclusive Design Consultation',
+            'Complete Vendor Management'
         ]
     ]
 ];
@@ -163,7 +163,7 @@ $pricingPlans = [
                         <div class="lv-pricing-box-content-2 text-center">
                             <div class="lv-pricing-box-head-2 pb-40">
                                 <h5 class="lv-pricing-box-subtitle-2"><?php echo $plan['type']; ?></h5>
-                                <h3 class="lv-pricing-box-title-2"><sup>$</sup><?php echo $plan['price']; ?></h3>
+                                <h3 class="lv-pricing-box-title-2"><sup>LKR</sup><?php echo $plan['price']; ?></h3>
                                 <div class="lv-pricing-box-heading-path-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="120" height="11.058"
                                         viewBox="0 0 120 11.058">

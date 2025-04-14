@@ -5,7 +5,7 @@
             <div class="col-xxl-12">
                 <div class="lv-section-title-wrap text-center pb-65">
                     <h2 class="lv-section-title">Explore our vision </h2>
-                    <p class="mb-0">Some of the unforgettable weddings we planned all over the world</p>
+                    <p class="mb-0">Creating unforgettable memories through exceptional events and celebrations</p>
                 </div>
             </div>
         </div>
@@ -14,18 +14,18 @@
             $visionItems = [
                 [
                     'image' => 'explore-1.jpg',
-                    'title' => 'Wedding Vision',
-                    'description' => 'The problem is that you\'re not an artist, and every time you try to describe your idea translation.'
+                    'title' => 'Wedding Excellence',
+                    'description' => 'We specialize in creating personalized wedding experiences that reflect your unique love story and cultural traditions.'
                 ],
                 [
                     'image' => 'explore-2.jpg',
-                    'title' => 'Decoration Plan',
-                    'description' => 'The problem is that you\'re not an artist, and every time you try to describe your idea translation.'
+                    'title' => 'Floral Artistry',
+                    'description' => 'Our talented floral designers create stunning arrangements that transform venues into magical spaces for your celebration.'
                 ],
                 [
                     'image' => 'explore-3.jpg',
-                    'title' => 'Photography',
-                    'description' => 'The problem is that you\'re not an artist, and every time you try to describe your idea translation.'
+                    'title' => 'Event Innovation',
+                    'description' => 'From corporate galas to intimate celebrations, we design and coordinate memorable events with creativity and precision.'
                 ]
             ];
             ?>
