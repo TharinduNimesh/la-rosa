@@ -15,7 +15,8 @@ ob_start();
 include BASE_PATH . '/components/pages/shop/ShopHero.php';
 
 // Define CSS styles for watermark in a separate function
-function renderPreviewWatermarkStyles() {
+function renderPreviewWatermarkStyles()
+{
     ?>
     <style>
         .shop-preview-watermark {
@@ -33,8 +34,8 @@ function renderPreviewWatermarkStyles() {
         }
 
         .shop-preview-blur {
-            filter: blur(3px);
-            -webkit-filter: blur(3px);
+            filter: blur(15px);
+            -webkit-filter: blur(15px);
             position: relative;
         }
     </style>
@@ -42,13 +43,14 @@ function renderPreviewWatermarkStyles() {
 }
 
 // Render the page content
-function renderShopContent() {
+function renderShopContent()
+{
     // Render styles
     renderPreviewWatermarkStyles();
-    
+
     // Render watermark
     echo '<div class="shop-preview-watermark">PREVIEW ONLY</div>';
-    
+
     // Render shop content with blur effect
     echo '<div class="shop-preview-blur">';
     include BASE_PATH . '/components/pages/shop/ShopGrid.php';

@@ -39,6 +39,7 @@
 
     <!-- Load Sidebar Component -->
     <?php include BASE_PATH . '/components/layout/sidebar/sidebar-2.php'; ?>
+    <?php include BASE_PATH . '/components/layout/cart/CartSidebar.php'; ?>
 
     <!-- Main Content -->
     <main>

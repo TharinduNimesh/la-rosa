@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-xxl-12">
                 <div class="lv-breadcrumb-content">
-                    <h4 class="lv-breadcrumb-title text-center">Shop Details</h4>
+                    <h4 class="lv-breadcrumb-title text-center">Product Details</h4>
                 </div>
             </div>
         </div>

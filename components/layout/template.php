@@ -47,6 +47,7 @@ if (!defined('BASE_PATH')) {
 
     <!-- Load Sidebar Component -->
     <?php include BASE_PATH . '/components/layout/sidebar/sidebar.php'; ?>
+    <?php include BASE_PATH . '/components/layout/cart/CartSidebar.php'; ?>
 
     <!-- Main Content -->
     <main>

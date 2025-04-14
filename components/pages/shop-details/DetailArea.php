@@ -2,90 +2,10 @@
     <div class="container">
         <div class="row g-0 justify-content-between mb-95">
             <div class="col-xxl-6 col-xl-6 col-lg-6">
-                <div class="lv-shop-details-wrapper-1-7 fix mb-30 mb-lg-0">
-                    <div class="lv-shop-details-product-tabs-1-7">
-                        <nav>
-                            <div class="nav" id="nav-tab3" role="tablist">
-                                <button class="active mb-15" id="nav-product-1-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-product-1" type="button" role="tab"
-                                    aria-controls="nav-product-1" aria-selected="true">
-                                    <img src="/assets/img/shop/shop-details-1.jpg" alt=""
-                                        class="lv-shop-details-tab-1-7">
-                                </button>
-                                <button class="mb-15" id="nav-product-2-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-product-2" type="button" role="tab"
-                                    aria-controls="nav-product-2" aria-selected="false">
-                                    <img src="/assets/img/shop/shop-8.jpg" alt="" class="lv-shop-details-tab-1-7">
-                                </button>
-                                <button class="mb-15" id="nav-product-3-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-product-3" type="button" role="tab"
-                                    aria-controls="nav-product-3" aria-selected="false">
-                                    <img src="/assets/img/shop/shop-6.jpg" alt="" class="lv-shop-details-tab-1-7">
-                                </button>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="lv-shop-details-product-tab-content-1-7">
-                        <div class="tab-content" id="nav-tabContent2">
-                            <div class="tab-pane fade show active" id="nav-product-1" role="tabpanel"
-                                aria-labelledby="nav-product-1-tab">
-                                <div class="lv-shop-details-img-1-7 bg-default"
-                                    data-background="/assets/img/shop/shop-details-1.jpg"></div>
-                            </div>
-                            <div class="tab-pane fade" id="nav-product-2" role="tabpanel"
-                                aria-labelledby="nav-product-2-tab">
-                                <div class="lv-shop-details-img-1-7 bg-default"
-                                    data-background="/assets/img/shop/shop-8.jpg"></div>
-                            </div>
-                            <div class="tab-pane fade" id="nav-product-3" role="tabpanel"
-                                aria-labelledby="nav-product-3-tab">
-                                <div class="lv-shop-details-img-1-7 bg-default"
-                                    data-background="/assets/img/shop/shop-6.jpg"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php include BASE_PATH . '/components/pages/shop-details/ProductGallery.php'; ?>
             </div>
             <div class="col-xxl-5 col-xl-5 col-lg-6">
-                <div class="lv-shop-details-right-content-1-7 lv-shop-details-right-content-space-1-7">
-                    <a href="shop" class="lv-product-stock-1-7 mb-20">Instock</a>
-                    <h4 class="lv-product-stock-title-1-7">Adrianna Queen</h4>
-                    <span class="lv-shop-details-price-1-7">£247.00</span>
-                    <div class="lv-shop-details-rating mb-30">
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fal fa-star"></i>
-                            <i class="fal fa-star"></i>
-                        </div>
-                        <span class="review-label">(0 Reviews)</span>
-                    </div>
-                    <div class="lv-shop-details-short-text-1-7 mb-45">
-                        <p>Discover beauty watching videos of the weddings we planned in these years. Each month you
-                            will find a new one shot in one of the most beautiful spot of Lovelee.</p>
-                    </div>
-                    <div class="lv-shop-details-quantity-form-wrap-1-7 mb-37">
-                        <div class="lv-shop-details-quantity-form-label-1-7 mr-17">Quantity</div>
-                        <form action="#" class="lv-shop-details-quantity-form-1-7 d-inline-block">
-                            <button class="lv-shop-details-quantity-plus"><i class="fal fa-plus"></i></button>
-                            <input type="number" name="quantity" id="quantity" value="1">
-                            <button class="lv-shop-details-quantity-minus"><i class="fal fa-minus"></i></button>
-                        </form>
-                        <a href="#0" class="lv-theme-btn lv-has-cart-margin-1-7">
-                            <span class="lv-theme-horizontal-line"></span>
-                            <span class="lv-theme-vertical-line"></span>
-                            <span>Add to Cart</span>
-                        </a>
-                    </div>
-                    <div class="lv-shop-details-meta-1-7">
-                        <ul>
-                            <li>SKU : ADQ 121</li>
-                            <li>CATEGORY: LONG DRESS</li>
-                            <li>TAGS: BRIDE, DRESS, FASHION</li>
-                        </ul>
-                    </div>
-                </div>
+                <?php include BASE_PATH . '/components/pages/shop-details/ProductInfo.php'; ?>
             </div>
         </div>
         <div class="row">
@@ -174,7 +94,7 @@
                                                         <li>
                                                             <div class="comments-box">
                                                                 <div class="comments-avatar">
-                                                                    <img src="/assets/img/author/avater-1.png" alt="">
+                                                                    <img src="assets/img/author/avater-1.png" alt="">
                                                                 </div>
                                                                 <div class="comments-text">
                                                                     <div class="avatar-name">
@@ -210,7 +130,7 @@
                                                         <li class="children">
                                                             <div class="comments-box">
                                                                 <div class="comments-avatar">
-                                                                    <img src="/assets/img/author/avater-2.png" alt="">
+                                                                    <img src="assets/img/author/avater-2.png" alt="">
                                                                 </div>
                                                                 <div class="comments-text">
                                                                     <div class="avatar-name">
@@ -246,7 +166,7 @@
                                                         <li>
                                                             <div class="comments-box">
                                                                 <div class="comments-avatar">
-                                                                    <img src="/assets/img/author/avater-3.png" alt="">
+                                                                    <img src="assets/img/author/avater-3.png" alt="">
                                                                 </div>
                                                                 <div class="comments-text">
                                                                     <div class="avatar-name">

@@ -34,8 +34,8 @@ function renderPreviewWatermarkStyles()
       }
 
       .shop-preview-blur {
-         filter: blur(3px);
-         -webkit-filter: blur(3px);
+         filter: blur(15px);
+         -webkit-filter: blur(15px);
          position: relative;
       }
    </style>
