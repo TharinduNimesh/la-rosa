@@ -178,7 +178,7 @@
                                             <span></span>
                                         </div>
                                         <p class="lv-featured-gallery-content-subtitle-2">
-                                            <a href="portfolio-3"><?php echo $item['couple']; ?></a>
+                                            <a href="portfolio-details"><?php echo $item['couple']; ?></a>
                                         </p>
                                         <h4 class="lv-featured-gallery-content-title-2">
                                             <a href="portfolio-details"><?php echo $item['location']; ?></a>

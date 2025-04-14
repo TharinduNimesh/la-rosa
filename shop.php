@@ -1,6 +1,8 @@
 <?php
 /**
  * Shop Page
+ * 
+ * This file displays the shop page with a preview watermark overlay.
  */
 
 // Set page title
@@ -11,44 +13,53 @@ ob_start();
 
 // Include Shop-specific components
 include BASE_PATH . '/components/pages/shop/ShopHero.php';
-?>
 
-<!-- Preview Watermark Overlay -->
-<!-- Preview Watermark Overlay -->
-<style>
-    .shop-preview-watermark {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) rotate(-45deg);
-        font-size: 5rem;
-        color: rgba(255, 0, 0, 0.3);
-        font-weight: bold;
-        z-index: 1000;
-        pointer-events: none;
-        text-transform: uppercase;
-        letter-spacing: 5px;
-    }
-
-    .shop-preview-blur {
-        filter: blur(3px);
-        -webkit-filter: blur(3px);
-        position: relative;
-    }
-</style>
-
-<div class="shop-preview-watermark">PREVIEW ONLY</div>
-
-<!-- Shop Content with Blur Effect -->
-<div class="shop-preview-blur">
-    <?php
-    include BASE_PATH . '/components/pages/shop/ShopGrid.php';
+// Define CSS styles for watermark in a separate function
+function renderPreviewWatermarkStyles() {
     ?>
-</div>
+    <style>
+        .shop-preview-watermark {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-45deg);
+            font-size: 5rem;
+            color: rgba(255, 0, 0, 0.3);
+            font-weight: bold;
+            z-index: 1000;
+            pointer-events: none;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
 
-<?php
+        .shop-preview-blur {
+            filter: blur(3px);
+            -webkit-filter: blur(3px);
+            position: relative;
+        }
+    </style>
+    <?php
+}
+
+// Render the page content
+function renderShopContent() {
+    // Render styles
+    renderPreviewWatermarkStyles();
+    
+    // Render watermark
+    echo '<div class="shop-preview-watermark">PREVIEW ONLY</div>';
+    
+    // Render shop content with blur effect
+    echo '<div class="shop-preview-blur">';
+    include BASE_PATH . '/components/pages/shop/ShopGrid.php';
+    echo '</div>';
+}
+
+// Render all shop content
+renderShopContent();
+
+// Get the buffered content
 $content = ob_get_clean();
 
 // Include the main template which has the base layout structure
 include BASE_PATH . '/components/layout/template-2.php';
-?>
