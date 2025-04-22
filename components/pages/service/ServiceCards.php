@@ -44,7 +44,7 @@ $services = [
                     </div>
                     <div class="lv-service-box-content">
                         <h5 class="lv-service-box-content-title">
-                            <a href="service.php"><?php echo $service['title']; ?></a>
+                            <a href="/service"><?php echo $service['title']; ?></a>
                         </h5>
                         <p><?php echo $service['description']; ?></p>
                     </div>

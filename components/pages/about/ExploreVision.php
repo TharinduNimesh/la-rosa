@@ -32,12 +32,12 @@
             <?php foreach($visionItems as $item): ?>
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div class="lv-explore-vision-box-1-1 mb-30">
-                    <a href="portfolio-details.php">
+                    <a href="/portfolio-details">
                         <div class="lv-explore-vision-box-img-1-1 bg-default" data-background="/assets/img/explore/<?php echo $item['image']; ?>"></div>
                     </a>
                     <div class="lv-explore-vision-box-content-1-1">
                         <h5 class="lv-explore-vision-box-title-1-1">
-                            <a href="portfolio-details.php"><?php echo $item['title']; ?></a>
+                            <a href="/portfolio-details"><?php echo $item['title']; ?></a>
                         </h5>
                         <p class="lv-explore-vision-box-text-1-1"><?php echo $item['description']; ?></p>
                     </div>

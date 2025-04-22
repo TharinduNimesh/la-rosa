@@ -285,7 +285,7 @@ $pricingPlans = [
                                     </ul>
                                 </div>
                                 <div class="lv-pricing-box-action-2">
-                                    <a href="contact.php" class="lv-pricing-box-action-btn-2">Select Plan</a>
+                                    <a href="/contact" class="lv-pricing-box-action-btn-2">Select Plan</a>
                                 </div>
                             </div>
                         </div>
