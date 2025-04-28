@@ -4,7 +4,10 @@
  * 
  * This file displays the portfolio details page with a preview watermark overlay.
  */
-
+// Define the base path if not already defined
+if (!defined('BASE_PATH')) {
+   define('BASE_PATH', __DIR__);
+}
 // Set page title
 $page_title = 'Portfolio Details | LaRosa - Wedding & Event Planning';
 

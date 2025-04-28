@@ -24,7 +24,7 @@ include BASE_PATH . '/components/pages/home/gallery.php';
 include BASE_PATH . '/components/shared/counter.php';
 include BASE_PATH . '/components/pages/home/testimonials.php';
 include BASE_PATH . '/components/pages/home/photography.php';
-include BASE_PATH . '/components/pages/home/blog.php';
+// include BASE_PATH . '/components/pages/home/blog.php';
 // Store the buffered content
 $content = ob_get_clean();
 

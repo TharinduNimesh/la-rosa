@@ -23,8 +23,8 @@ $request_uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
 // Handle static files if the request is for assets
 if (strpos($request_uri, '/assets/') === 0) {
-    // Assumes your public assets are under BASE_PATH/public
-    $file_path = BASE_PATH . '/public' . $request_uri;
+    // Assumes your public assets are under BASE_PATH
+    $file_path = BASE_PATH . '' . $request_uri;
     if (file_exists($file_path)) {
         $mime_type = mime_content_type($file_path);
         header("Content-Type: $mime_type");
