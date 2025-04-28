@@ -2,7 +2,7 @@
 <div class="photography-area pb-120">
     <div class="container">
         <div class="lv-photography-wrap-1">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 mb-30 mb-md-0">
                     <div class="lv-section-title-wrap pb-65">
                         <h2 class="lv-section-title mb-10">Our Creative Team</h2>
@@ -87,7 +87,7 @@
                             data-background="/assets/img/gallery/gallery-carousel-1.jpg"></div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
@@ -107,7 +107,7 @@
 </div>
 <!-- cta area end -->
 <!-- brand area start -->
-<div class="brand-area pt-65 pb-55" data-bg-color="#F9F9F9">
+<!-- <div class="brand-area pt-65 pb-55" data-bg-color="#F9F9F9">
     <div class="container">
         <div class="lv-brand-flex-wrap">
             <div class="lv-brand-flex-single">
@@ -142,5 +142,5 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- brand area end -->
