@@ -18,7 +18,7 @@ include BASE_PATH . '/components/pages/about/AboutContent.php';
 include BASE_PATH . '/components/pages/about/ExploreVision.php';
 include BASE_PATH . '/components/shared/counter.php';
 include BASE_PATH . '/components/pages/about/ExperienceSection.php';
-include BASE_PATH . '/components/pages/about/BrandSection.php';
+// include BASE_PATH . '/components/pages/about/BrandSection.php';
 
 $content = ob_get_clean();
 

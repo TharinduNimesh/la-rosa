@@ -38,8 +38,8 @@
                 [
                     'image' => 'assets/img/shop/shop-4.jpg',
                     'badge' => '',
-                    'title' => 'Keyhole Rhinestone',
-                    'price' => '£136.00',
+                    'title' => 'Crystal Beaded Dress',
+                    'price' => '£142.00',
                     'oldPrice' => '',
                     'link' => 'shop-details.html'
                 ]

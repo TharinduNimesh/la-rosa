@@ -15,7 +15,9 @@ ob_start();
 // Include About-specific components first
 include BASE_PATH . '/components/pages/service/ServiceHero.php';
 include BASE_PATH . '/components/pages/service/ServiceCards.php';
-include BASE_PATH . '/components/pages/service/PricingSection.php';
+// include BASE_PATH . '/components/pages/service/PricingSection.php';
+include BASE_PATH . '/components/pages/service/PricingSectionExpan.php';
+
 
 $content = ob_get_clean();
 

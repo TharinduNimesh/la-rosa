@@ -30,6 +30,7 @@ if (!defined('BASE_PATH')) {
     <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="/assets/css/swiper-bundle.css">
     <link rel="stylesheet" href="/assets/css/backToTop.css">
+    <link rel="stylesheet" href="/assets/css/whatsapp.css">
     <link rel="stylesheet" href="/assets/css/magnific-popup.css">
     <link rel="stylesheet" href="/assets/css/nice-select.css">
     <link rel="stylesheet" href="/assets/css/fontAwesome5Pro.css">
@@ -41,13 +42,12 @@ if (!defined('BASE_PATH')) {
 <body>
     <!-- Load Preloader Component -->
     <?php include BASE_PATH . '/components/layout/preloader/preloader.php'; ?>
-
+    
     <!-- Load Header Component -->
     <?php include BASE_PATH . '/components/layout/header/header.php'; ?>
 
     <!-- Load Sidebar Component -->
     <?php include BASE_PATH . '/components/layout/sidebar/sidebar.php'; ?>
-    <?php include BASE_PATH . '/components/layout/cart/CartSidebar.php'; ?>
 
     <!-- Main Content -->
     <main>
@@ -62,6 +62,21 @@ if (!defined('BASE_PATH')) {
     <?php include BASE_PATH . '/components/shared/instagram.php'; ?>
     <!-- Load Footer Component -->
     <?php include BASE_PATH . '/components/layout/footer/footer.php'; ?>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/94775033375" target="_blank" rel="noopener" class="whatsapp-float-btn"
+        aria-label="Chat on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+            <path d="M24.5,7.5C22.2,5.2,19.2,4,16,4C9.5,4,4.1,9.4,4.1,15.9c0,2.1,0.5,4.2,1.6,6L4,28.1l6.3-1.7
+            c1.7,1,3.7,1.5,5.7,1.5h0l0,0c6.6,0,11.9-5.4,12-11.9C28,12.8,26.8,9.8,24.5,7.5z M16,25.9L16,25.9c-1.8,0-3.5-0.5-5.1-1.4
+            l-0.4-0.2l-3.8,1l1-3.7l-0.2-0.4c-1-1.6-1.5-3.4-1.5-5.3c0-5.5,4.5-9.9,9.9-9.9c2.7,0,5.1,1,7,2.9s2.9,4.4,2.9,7
+            C26,21.4,21.5,25.9,16,25.9z M21.5,18.4c-0.3-0.1-1.8-0.9-2-1c-0.3-0.1-0.5-0.1-0.7,0.1c-0.2,0.3-0.8,1-0.9,1.2s-0.3,0.2-0.6,0.1
+            s-1.3-0.5-2.4-1.5c-0.9-0.8-1.5-1.8-1.7-2.1s0-0.5,0.1-0.6c0.1-0.1,0.3-0.3,0.4-0.5s0.2-0.3,0.3-0.5s0.1-0.4,0-0.5
+            s-0.7-1.6-0.9-2.2c-0.2-0.6-0.5-0.5-0.7-0.5c-0.2,0-0.4,0-0.6,0c-0.2,0-0.5,0.1-0.8,0.4s-1,1-1,2.5s1.1,2.9,1.2,3.1
+            s2.1,3.2,5.1,4.5c0.7,0.3,1.3,0.5,1.7,0.6c0.7,0.2,1.4,0.2,1.9,0.1c0.6-0.1,1.8-0.7,2-1.4c0.2-0.7,0.2-1.3,0.2-1.4
+            C22,18.7,21.8,18.6,21.5,18.4z" />
+        </svg>
+    </a>
 
     <!-- Back to top -->
     <div class="progress-wrap">

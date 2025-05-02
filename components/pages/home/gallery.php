@@ -25,8 +25,8 @@
                   </div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
-                  <h5 class="lv-single-featured-gallery-subtitle">Wedding Reception</h5>
-                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Shanaka & Dilini</a>
+                  <!-- <h5 class="lv-single-featured-gallery-subtitle">Wedding Reception</h5> -->
+                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Wedding Reception</a>
                   </h4>
                </div>
             </div>
@@ -38,8 +38,8 @@
                      data-background="/assets/img/gallery/gallery-1.jpg"></div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
-                  <h5 class="lv-single-featured-gallery-subtitle">Poruwa Ceremony</h5>
-                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Thisara & Nadeeka</a>
+                  <!-- <h5 class="lv-single-featured-gallery-subtitle">Poruwa Ceremony</h5> -->
+                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Poruwa Ceremony</a>
                   </h4>
                </div>
             </div>
@@ -51,8 +51,8 @@
                      data-background="/assets/img/gallery/gallery-4.jpg"></div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
-                  <h5 class="lv-single-featured-gallery-subtitle">Corporate Gala</h5>
-                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Annual Awards Night</a>
+                  <!-- <h5 class="lv-single-featured-gallery-subtitle">Corporate Gala</h5> -->
+                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Corporate Gala</a>
                   </h4>
                </div>
             </div>
@@ -65,8 +65,8 @@
                   </div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
-                  <h5 class="lv-single-featured-gallery-subtitle">Outdoor Wedding</h5>
-                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Sachith & Amaya</a></h4>
+                  <!-- <h5 class="lv-single-featured-gallery-subtitle">Outdoor Wedding</h5> -->
+                  <h4 class="lv-single-featured-gallery-title"><a href="portfolio-details">Outdoor Wedding</a></h4>
                </div>
             </div>
          </div>
