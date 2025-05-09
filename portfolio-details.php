@@ -52,12 +52,12 @@ function renderPortfolioContent()
    renderPreviewWatermarkStyles();
 
    // Render watermark
-   echo '<div class="portfolio-preview-watermark">PREVIEW ONLY</div>';
+   // echo '<div class="portfolio-preview-watermark">PREVIEW ONLY</div>';
 
    // Render portfolio content with blur effect
-   echo '<div class="portfolio-preview-blur">';
+   // echo '<div class="portfolio-preview-blur">';
    include BASE_PATH . '/components/pages/portfolio-details/PortfolioDetails.php';
-   echo '</div>';
+   // echo '</div>';
 }
 
 // Render all portfolio content

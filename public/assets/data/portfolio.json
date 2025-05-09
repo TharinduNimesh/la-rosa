@@ -1,0 +1,68 @@
+[
+  {
+    "category": "birthday1",
+    "title": "Birthday Celebration",
+    "couple": "Emily",
+    "main_date": "Saturday - 12 March 2022",
+    "description_1": "A fun-filled birthday celebration with friends and family.",
+    "description_2": "Memorable moments and lots of laughter.",
+    "location": "City Banquet Hall",
+    "date": "12 Mar 2022",
+    "tags": "birthday, party"
+  },
+  {
+    "category": "birthday2",
+    "title": "Birthday Celebration",
+    "couple": "William",
+    "main_date": "Saturday - 12 March 2022",
+    "description_1": "A fun-filled birthday celebration with friends and family.",
+    "description_2": "Memorable moments and lots of laughter.",
+    "location": "City Banquet Hall",
+    "date": "12 Mar 2022",
+    "tags": "birthday, party"
+  },
+  {
+    "category": "churrch",
+    "title": "Church Ceremony",
+    "couple": "Grace & Noah",
+    "main_date": "Sunday - 15 June 2022",
+    "description_1": "A beautiful church wedding ceremony.",
+    "description_2": "Blessings and joy all around.",
+    "location": "St. Mary’s Church",
+    "date": "15 Jun 2022",
+    "tags": "church, wedding"
+  },
+  {
+    "category": "indoorwedding",
+    "title": "Indoor Wedding",
+    "couple": "Olivia & Ethan",
+    "main_date": "Saturday - 10 July 2022",
+    "description_1": "A classic indoor wedding with elegant decor.",
+    "description_2": "Dancing and celebration.",
+    "location": "Grand Ballroom",
+    "date": "10 Jul 2022",
+    "tags": "indoor, wedding"
+  },
+  {
+    "category": "outdoorwedding1",
+    "title": "Outdoor Wedding",
+    "couple": "Ella & Lucas",
+    "main_date": "Friday - 3 September 2022",
+    "description_1": "A sunny outdoor wedding celebration.",
+    "description_2": "Family, friends, and fun.",
+    "location": "Lakeside Venue",
+    "date": "3 Sep 2022",
+    "tags": "outdoor, wedding"
+  },
+  {
+    "category": "outdoorwedding2",
+    "title": "Outdoor Wedding",
+    "couple": "Mia & Henry",
+    "main_date": "Saturday - 18 September 2022",
+    "description_1": "A magical outdoor wedding under the stars.",
+    "description_2": "Unforgettable night.",
+    "location": "Starry Field",
+    "date": "18 Sep 2022",
+    "tags": "outdoor, wedding"
+  }
+]

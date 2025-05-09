@@ -1,3 +1,8 @@
+<?php
+// Load portfolio data from JSON
+$dataFile = BASE_PATH . '/public/assets/data/portfolio.json';
+$portfolioData = json_decode(file_get_contents($dataFile), true);
+?>
 <div class="featured-gallery-area pb-120">
     <div class="container">
         <div class="row pb-70">
@@ -110,7 +115,6 @@
                                         <path id="Path_8285" data-name="Path 8285"
                                             d="M374.213,145.26c-1.7-5.221,1.728-11.086,3.9-15.82,3.239-7.061,6.705-13.933,11.841-19.823a1.259,1.259,0,0,1,2.092,1.218c-2.042,6.631-5.062,12.9-7.882,19.22-2.278,5.112-3.759,12.611-8.769,15.683a.813.813,0,0,1-1.18-.479Z"
                                             transform="translate(-373.754 -109.238)" fill="#dfb68d"></path>
-                                    </g>
                                 </g>
                             </g>
                         </svg>
@@ -118,84 +122,57 @@
                 </div>
             </div>
         </div>
-
         <div class="lv-featured-gallery-2 gallery-grid pb-90">
             <div class="row">
-                <?php
-                // Gallery items data
-                $galleryItems = [
-                    [
-                        'image' => '/assets/img/gallery/gallery-1.jpg',
-                        'height_class' => 'lv-featured-gallery-height-1',
-                        'couple' => '',
-                        'location' => 'Piemonte Countryside'
-                    ],
-                    [
-                        'image' => '/assets/img/gallery/gallery-3.jpg',
-                        'height_class' => 'lv-featured-gallery-height-2',
-                        'couple' => '',
-                        'location' => 'Piemonte Countryside'
-                    ],
-                    [
-                        'image' => '/assets/img/gallery/gallery-4.jpg',
-                        'height_class' => 'lv-featured-gallery-height-3',
-                        'couple' => '',
-                        'location' => 'Piemonte Countryside'
-                    ],
-                    [
-                        'image' => '/assets/img/portfolio/s6.jpg',
-                        'height_class' => 'lv-featured-gallery-height-5',
-                        'couple' => '',
-                        'location' => 'Piemonte Countryside'
-                    ],
-                    [
-                        'image' => '/assets/img/gallery/gallery-6.jpg',
-                        'height_class' => 'lv-featured-gallery-height-4',
-                        'couple' => '',
-                        'location' => 'Piemonte Countryside'
-                    ],
-                    [
-                        'image' => '/assets/img/gallery/gallery-7.jpg',
-                        'height_class' => 'lv-featured-gallery-height-6',
-                        'couple' => '',
-                        'location' => 'Piemonte Countryside'
-                    ]
-                ];
-
-                // Generate gallery items
-                foreach ($galleryItems as $item):
-                    ?>
+                <?php foreach ($portfolioData as $i => $event):
+                    $cat = $event['category'];
+                    $imgDir = BASE_PATH . '/public/assets/img/gallery/' . $cat . '/';
+                    $imgUrl = 'assets/img/gallery/' . $cat . '/';
+                    $images = glob($imgDir . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+                    if (count($images) === 0) continue;
+                    $imgWebPath = $imgUrl . basename($images[0]); // Use first image as thumbnail
+                    $heightClasses = [
+                        'lv-featured-gallery-height-1',
+                        'lv-featured-gallery-height-2',
+                        'lv-featured-gallery-height-3',
+                        'lv-featured-gallery-height-5',
+                        'lv-featured-gallery-height-4',
+                        'lv-featured-gallery-height-6'
+                    ];
+                    $heightClass = $heightClasses[$i % count($heightClasses)];
+                ?>
                     <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 grid-item">
-                        <div class="lv-featured-gallery-item-single-2 mb-30 p-rel theme-bg p-30 bg-default <?php echo $item['height_class']; ?>"
-                            data-background="<?php echo $item['image']; ?>">
-                            <div class="lv-featured-gallery-item-height-2">
-                                <div class="lv-featured-gallery-content-2-wrap bg-white p-rel">
-                                    <div class="lv-featured-gallery-content-2-inner">
-                                        <div class="lv-featured-gallery-paths-2">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
+                        <a href="portfolio-details.php?category=<?php echo urlencode($cat); ?>">
+                            <div class="lv-featured-gallery-item-single-2 mb-30 p-rel theme-bg p-30 bg-default <?php echo $heightClass; ?>"
+                                style="background-image:url('<?php echo $imgWebPath; ?>')">
+                                <div class="lv-featured-gallery-item-height-2">
+                                    <div class="lv-featured-gallery-content-2-wrap bg-white p-rel">
+                                        <div class="lv-featured-gallery-content-2-inner">
+                                            <div class="lv-featured-gallery-paths-2">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <p class="lv-featured-gallery-content-subtitle-2">
+                                                <?php echo htmlspecialchars($event['title']); ?>
+                                            </p>
+                                            <h4 class="lv-featured-gallery-content-title-2">
+                                                <?php echo htmlspecialchars($event['couple']); ?>
+                                            </h4>
                                         </div>
-                                        <p class="lv-featured-gallery-content-subtitle-2">
-                                            <a href="portfolio-details"><?php echo $item['couple']; ?></a>
-                                        </p>
-                                        <h4 class="lv-featured-gallery-content-title-2">
-                                            <a href="portfolio-details"><?php echo $item['location']; ?></a>
-                                        </h4>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 <?php endforeach; ?>
             </div>
         </div>
-
         <div class="row">
             <div class="col-xxl-12">
                 <div class="text-center">
-                    <a href="portfolio-details" class="lv-banner-link-3">Load More</a>
+                    <a href="#" class="lv-banner-link-3">Load More</a>
                 </div>
             </div>
         </div>

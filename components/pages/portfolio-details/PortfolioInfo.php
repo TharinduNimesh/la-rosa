@@ -1,23 +1,36 @@
+<?php
+// Load portfolio data from JSON
+$dataFile = BASE_PATH . '/public/assets/data/portfolio.json';
+$portfolioData = json_decode(file_get_contents($dataFile), true);
+$category = isset($_GET['category']) ? $_GET['category'] : ($portfolioData[0]['category'] ?? '');
+$event = null;
+foreach ($portfolioData as $item) {
+    if ($item['category'] === $category) {
+        $event = $item;
+        break;
+    }
+}
+if (!$event) {
+    echo '<div class="alert alert-warning">Event not found.</div>';
+    return;
+}
+?>
 <div class="lv-portfolio-details-left-1-4">
     <div class="lv-portfolio-details-top-wrap-1-4 mb-35">
-        <h4 class="lv-portfolio-details-title-1-4">Lake Splash<br>Fairlove</h4>
-        <h5 class="lv-portfolio-member-name-1-4">Jelena & Konrad</h5>
-        <span class="lv-portfolio-date-1-4">Sunday - 8 July 2021</span>
+        <h4 class="lv-portfolio-details-title-1-4"><?php echo htmlspecialchars($event['title']); ?></h4>
+        <h5 class="lv-portfolio-member-name-1-4"><?php echo htmlspecialchars($event['couple']); ?></h5>
+        <span class="lv-portfolio-date-1-4"><?php echo htmlspecialchars($event['main_date']); ?></span>
     </div>
     <div class="lv-portfolio-details-content-1-4 mb-30">
-        <p class="mb-25">Lovelee is the top wedding destination in the day! This magic region of central is the perfect
-            destination if you are planning an exclusive wedding in a luxury villa or if you are planning an elope or if
-            you are thinking about a wedding with a lot of different destinations.</p>
-        <p>You’re so excited that you aren’t sure where to begin, who to hire, or what to do next. You wish you had a
-            trusted, who felt more like a friend that could take the guesswork out of all of these decisions so you
-            could relax</p>
+        <p class="mb-25"><?php echo htmlspecialchars($event['description_1']); ?></p>
+        <p><?php echo htmlspecialchars($event['description_2']); ?></p>
     </div>
     <div class="lv-portfolio-meta-list-1-4">
         <ul>
-            <li><span>Category :</span> Wedding</li>
-            <li><span>Location :</span> Lake Circus Park, NY, USA -8755</li>
-            <li><span>Date :</span> 23 Feb 2022</li>
-            <li><span>Tags :</span> wedding, anniversary</li>
+            <li><span>Category :</span> <?php echo htmlspecialchars($event['title']); ?></li>
+            <li><span>Location :</span> <?php echo htmlspecialchars($event['location']); ?></li>
+            <li><span>Date :</span> <?php echo htmlspecialchars($event['date']); ?></li>
+            <li><span>Tags :</span> <?php echo htmlspecialchars($event['tags']); ?></li>
         </ul>
     </div>
 </div>
