@@ -2,7 +2,36 @@
 // Load portfolio data from JSON
 $dataFile = BASE_PATH . '/public/assets/data/portfolio.json';
 $portfolioData = json_decode(file_get_contents($dataFile), true);
+
+$page = isset($_GET['page']) ? max(1, intval($_GET['page'])) : 1;
+$perPage = 6;
+$start = ($page - 1) * $perPage;
+$eventsToShow = array_slice($portfolioData, $start, $perPage);
+$totalPages = ceil(count($portfolioData) / $perPage);
 ?>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const lazyCards = document.querySelectorAll('.lv-featured-gallery-item-single-2[data-bg]');
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const bg = entry.target.getAttribute('data-bg');
+          if (bg) entry.target.style.backgroundImage = `url('${bg}')`;
+          obs.unobserve(entry.target);
+        }
+      });
+    });
+    lazyCards.forEach(card => observer.observe(card));
+  } else {
+    // Fallback for old browsers
+    lazyCards.forEach(card => {
+      const bg = card.getAttribute('data-bg');
+      if (bg) card.style.backgroundImage = `url('${bg}')`;
+    });
+  }
+});
+</script>
 <div class="featured-gallery-area pb-120">
     <div class="container">
         <div class="row pb-70">
@@ -124,13 +153,13 @@ $portfolioData = json_decode(file_get_contents($dataFile), true);
         </div>
         <div class="lv-featured-gallery-2 gallery-grid pb-90">
             <div class="row">
-                <?php foreach ($portfolioData as $i => $event):
+                <?php foreach ($eventsToShow as $i => $event):
                     $cat = $event['category'];
-                    $imgDir = BASE_PATH . '/public/assets/img/gallery/' . $cat . '/';
-                    $imgUrl = 'assets/img/gallery/' . $cat . '/';
-                    $images = glob($imgDir . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
-                    if (count($images) === 0) continue;
-                    $imgWebPath = $imgUrl . basename($images[0]); // Use first image as thumbnail
+                    $imgDir = BASE_PATH . '/public/assets/img/gallery/' . $cat . '/thumbnails/';
+                    $imgUrl = 'assets/img/gallery/' . $cat . '/thumbnails/';
+                    $thumbs = glob($imgDir . '*.{jpg,jpeg,png,webp}', GLOB_BRACE);
+                    if (count($thumbs) === 0) continue; // Only show if thumbnail exists
+                    $thumbnailWebPath = $imgUrl . basename($thumbs[0]);
                     $heightClasses = [
                         'lv-featured-gallery-height-1',
                         'lv-featured-gallery-height-2',
@@ -144,7 +173,8 @@ $portfolioData = json_decode(file_get_contents($dataFile), true);
                     <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 grid-item">
                         <a href="portfolio-details.php?category=<?php echo urlencode($cat); ?>">
                             <div class="lv-featured-gallery-item-single-2 mb-30 p-rel theme-bg p-30 bg-default <?php echo $heightClass; ?>"
-                                style="background-image:url('<?php echo $imgWebPath; ?>')">
+                                data-bg="<?php echo $thumbnailWebPath; ?>"
+                                style="background-size:cover; background-position:center; width:100%; height:100%;">
                                 <div class="lv-featured-gallery-item-height-2">
                                     <div class="lv-featured-gallery-content-2-wrap bg-white p-rel">
                                         <div class="lv-featured-gallery-content-2-inner">
@@ -169,12 +199,14 @@ $portfolioData = json_decode(file_get_contents($dataFile), true);
                 <?php endforeach; ?>
             </div>
         </div>
+        <?php if ($page < $totalPages): ?>
         <div class="row">
             <div class="col-xxl-12">
                 <div class="text-center">
-                    <a href="#" class="lv-banner-link-3">Load More</a>
+                    <a href="?page=<?php echo $page + 1; ?>" class="lv-banner-link-3">Load More</a>
                 </div>
             </div>
         </div>
+        <?php endif; ?>
     </div>
 </div>
