@@ -34,7 +34,7 @@
                             <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
                                 <div class="lv-about-blue-point-right pl-35">
                                     <div class="lv-about-play-btn">
-                                        <a href="https://www.youtube.com/watch?v=G-rzE-9zHj8"
+                                        <a href=""
                                             class="lv-about-play-btn-link popup-video">
                                             <i class="fas fa-play"></i>
                                             <svg class="eltdf-svg-circle">

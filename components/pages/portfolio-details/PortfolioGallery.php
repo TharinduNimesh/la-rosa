@@ -23,6 +23,7 @@ $perPage = 6;
 $start = ($page - 1) * $perPage;
 $imagesToShow = array_slice($images, $start, $perPage);
 $totalPages = ceil(count($images) / $perPage);
+$imgCount = count($imagesToShow);
 ?>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -48,24 +49,61 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 <div class="gallery-grids">
     <div class="row g-15">
-        <?php foreach ($imagesToShow as $i => $imgPath):
-            $imgName = basename($imgPath);
-            $imgWebPath = $galleryUrl . $imgName;
-            $gridClasses = [
-                'lv-p-details-grid-item-1-4-1',
-                'lv-p-details-grid-item-1-4-2',
-                'lv-p-details-grid-item-1-4-3',
-                'lv-p-details-grid-item-1-4-4',
-            ];
-            $gridClass = $gridClasses[$i % count($gridClasses)];
-            $colClass = ($gridClass === 'lv-p-details-grid-item-1-4-1' || $gridClass === 'lv-p-details-grid-item-1-4-4') ? 'col-xxl-12 col-xl-12 col-lg-12 col-md-12 grid-items' : 'col-xxl-6 col-xl-6 col-lg-6 col-md-6 grid-items';
-        ?>
-            <div class="<?php echo $colClass; ?>">
-                <a class="image-popups" href="<?php echo $imgWebPath; ?>">
-                    <div class="<?php echo $gridClass; ?> mb-15 bg-default" data-bg="<?php echo $imgWebPath; ?>"></div>
+        <?php if ($imgCount > 0): ?>
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 grid-items">
+                <a class="image-popups" href="<?php echo $galleryUrl . basename($imagesToShow[0]); ?>">
+                    <div class="lv-p-details-grid-item-1-4-1 mb-15 bg-default" data-bg="<?php echo $galleryUrl . basename($imagesToShow[0]); ?>"></div>
                 </a>
             </div>
-        <?php endforeach; ?>
+        <?php endif; ?>
+        <?php if ($imgCount > 1): ?>
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 grid-items">
+                <a class="image-popups" href="<?php echo $galleryUrl . basename($imagesToShow[1]); ?>">
+                    <div class="lv-p-details-grid-item-1-4-2 mb-15 bg-default" data-bg="<?php echo $galleryUrl . basename($imagesToShow[1]); ?>"></div>
+                </a>
+            </div>
+        <?php endif; ?>
+        <?php if ($imgCount > 2 || $imgCount > 3): ?>
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 grid-items">
+                <div class="row">
+                    <?php if ($imgCount > 2): ?>
+                        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
+                            <a class="image-popups" href="<?php echo $galleryUrl . basename($imagesToShow[2]); ?>">
+                                <div class="lv-p-details-grid-item-1-4-3 mb-15 bg-default" data-bg="<?php echo $galleryUrl . basename($imagesToShow[2]); ?>"></div>
+                            </a>
+                        </div>
+                    <?php endif; ?>
+                    <?php if ($imgCount > 3): ?>
+                        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
+                            <a class="image-popups" href="<?php echo $galleryUrl . basename($imagesToShow[3]); ?>">
+                                <div class="lv-p-details-grid-item-1-4-3 mb-15 bg-default" data-bg="<?php echo $galleryUrl . basename($imagesToShow[3]); ?>"></div>
+                            </a>
+                        </div>
+                    <?php endif; ?>
+                </div>
+            </div>
+        <?php endif; ?>
+        <?php if ($imgCount > 4): ?>
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 grid-items">
+                <a class="image-popups" href="<?php echo $galleryUrl . basename($imagesToShow[4]); ?>">
+                    <div class="lv-p-details-grid-item-1-4-4 mb-15 bg-default" data-bg="<?php echo $galleryUrl . basename($imagesToShow[4]); ?>"></div>
+                </a>
+            </div>
+        <?php endif; ?>
+        <?php if ($imgCount > 5): ?>
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 grid-items">
+                <a class="image-popups" href="<?php echo $galleryUrl . basename($imagesToShow[5]); ?>">
+                    <div class="lv-p-details-grid-item-1-4-3 mb-15 bg-default" data-bg="<?php echo $galleryUrl . basename($imagesToShow[5]); ?>"></div>
+                </a>
+            </div>
+        <?php endif; ?>
+        <?php if ($imgCount > 6): ?>
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 grid-items">
+                <a class="image-popups" href="<?php echo $galleryUrl . basename($imagesToShow[6]); ?>">
+                    <div class="lv-p-details-grid-item-1-4-3 mb-15 bg-default" data-bg="<?php echo $galleryUrl . basename($imagesToShow[6]); ?>"></div>
+                </a>
+            </div>
+        <?php endif; ?>
     </div>
     <?php if ($page < $totalPages): ?>
     <div class="row">

@@ -40,15 +40,20 @@
                             <div id="pricingCollapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="pricingHeadingTwo" data-bs-parent="#pricingAccordion">
                                 <div class="accordion-body">
-                                    We offer a range of luxury wedding decor packages, including:<br>
+                                    We offer comprehensive luxury wedding decor packages, including:<br>
                                     <ul class="text-start" style="display:inline-block;">
-                                        <li>Poruwa Ceremony Decor</li>
-                                        <li>Settee Back & Head Table Arrangements</li>
-                                        <li>Entrance & Oil Lamp Styling</li>
-                                        <li>Table Centerpieces & Guest Table Decor</li>
-                                        <li>Custom Floral Installations</li>
+                                        <li>Poruwa Design & Ceremony Decor</li>
+                                        <li>Settee Back Design & Styling</li>
+                                        <li>Guest Table Centerpieces & Decor</li>
+                                        <li>Head Table/Couple Table Design</li>
+                                        <li>Traditional Oil Lamp Design</li>
+                                        <li>Grand Entrance Designs</li>
+                                        <li>Elegant Car Decoration</li>
+                                        <li>Bridal Bouquet Creation</li>
+                                        <li>Matching Boutonnière</li>
                                     </ul>
-                                    All packages are customizable to suit your vision and venue.
+                                    <br>Each package is fully customizable to match your wedding theme and venue
+                                    requirements.
                                 </div>
                             </div>
                         </div>
@@ -57,47 +62,26 @@
                                 <button class="accordion-button collapsed lv-footer-title" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#pricingCollapseThree"
                                     aria-expanded="false" aria-controls="pricingCollapseThree">
-                                    How can I compare quotations from floral vendors?
+                                    Do you offer combinations of fresh and artificial flowers for wedding decor?
                                 </button>
                             </h2>
                             <div id="pricingCollapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="pricingHeadingThree" data-bs-parent="#pricingAccordion">
                                 <div class="accordion-body">
-                                    When comparing quotations, consider the quality of flowers, design expertise,
-                                    included services, and vendor reputation. La Rosa Flora provides detailed,
-                                    transparent quotes and uses only premium fresh flowers.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="pricingHeadingFour">
-                                <button class="accordion-button collapsed lv-footer-title" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#pricingCollapseFour"
-                                    aria-expanded="false" aria-controls="pricingCollapseFour">
-                                    What fresh flowers does La Rosa Flora use for wedding decor?
-                                </button>
-                            </h2>
-                            <div id="pricingCollapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="pricingHeadingFour" data-bs-parent="#pricingAccordion">
-                                <div class="accordion-body">
-                                    We use a wide variety of premium fresh flowers, including locally grown and imported
-                                    European varieties, to ensure beauty and freshness for your special day.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="pricingHeadingFive">
-                                <button class="accordion-button collapsed lv-footer-title" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#pricingCollapseFive"
-                                    aria-expanded="false" aria-controls="pricingCollapseFive">
-                                    Why does La Rosa Flora only use fresh flowers for decor?
-                                </button>
-                            </h2>
-                            <div id="pricingCollapseFive" class="accordion-collapse collapse"
-                                aria-labelledby="pricingHeadingFive" data-bs-parent="#pricingAccordion">
-                                <div class="accordion-body">
-                                    Fresh flowers provide unmatched beauty, fragrance, and elegance. Our commitment to
-                                    quality ensures your wedding decor is vibrant and memorable.
+                                    Yes, we offer flexible solutions combining fresh and artificial flowers based on
+                                    your preferences and budget:
+                                    <br><br>
+                                    <strong>1. Premium Areas:</strong> Fresh flowers for key focal points (poruwa, head
+                                    table, bridal bouquet)
+                                    <br><br>
+                                    <strong>2. Supporting Decor:</strong> High-quality artificial flowers for peripheral
+                                    decorations
+                                    <br><br>
+                                    <strong>3. Cost Benefits:</strong> This mixed approach can help optimize your budget
+                                    while maintaining elegance
+                                    <br><br>
+                                    Our designers will guide you in creating the perfect balance between fresh and
+                                    artificial flowers for your wedding decor.
                                 </div>
                             </div>
                         </div>

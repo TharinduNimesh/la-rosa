@@ -20,7 +20,7 @@
             <div class="lv-weiding-video-banner-box p-rel bg-default lv-weiding-video-banner-height"
                data-background="/assets/img/bg/weiding-bg.jpg">
                <div class="lv-weiding-video-banner-pos">
-                  <a href="https://www.youtube.com/watch?v=Ea8b8s4QIPM"
+                  <a href=""
                      class="lv-weiding-video-banner-link popup-video p-rel">
                      <i class="fas fa-play"></i>
                      <svg class="eltdf-svg-circle">

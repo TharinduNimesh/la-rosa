@@ -2,11 +2,12 @@
 <div class="photography-area pb-120">
     <div class="container">
         <div class="lv-photography-wrap-1">
-            <!-- <div class="row">
+            <div class="row">
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 mb-30 mb-md-0">
                     <div class="lv-section-title-wrap pb-65">
                         <h2 class="lv-section-title mb-10">Our Creative Team</h2>
-                        <p class="mb-0">Every event is carefully crafted by our team of professional planners and designers.</p>
+                        <p class="mb-0">Every event is carefully crafted by our team of professional planners and
+                            designers.</p>
                     </div>
                     <div class="lv-photography-img-1-1 bg-default lv-photography-img"
                         data-background="/assets/img/photography/photography-1.jpg"></div>
@@ -23,13 +24,14 @@
                                         </div>
                                     </a>
                                     <div class="lv-photography-member-content text-center">
-                                        <a href="team"
-                                            class="lv-photography-member-designation-link">Event Designer</a>
+                                        <a href="team" class="lv-photography-member-designation-link">Event Designer</a>
                                         <h5 class="lv-photography-member-name"><a href="team">Nilmini Jayawardena
                                             </a></h5>
                                         <div class="lv-photography-member-social-links">
-                                            <a href="https://www.facebook.com/share/p/16D9K3M8w3/?mibextid=WC7FNe" target="_blank">FB</a>
-                                            <a href="https://www.instagram.com/p/DHNS8SNoDo2/?igsh=anFtaHkzZm51MW14" target="_blank">IN</a>
+                                            <a href="https://www.facebook.com/share/p/16D9K3M8w3/?mibextid=WC7FNe"
+                                                target="_blank">FB</a>
+                                            <a href="https://www.instagram.com/p/DHNS8SNoDo2/?igsh=anFtaHkzZm51MW14"
+                                                target="_blank">IN</a>
                                         </div>
                                     </div>
                                 </div>
@@ -48,8 +50,10 @@
                                     <h5 class="lv-photography-member-name"><a href="team">Tharushi Perera</a>
                                     </h5>
                                     <div class="lv-photography-member-social-links">
-                                        <a href="https://www.facebook.com/share/p/16D9K3M8w3/?mibextid=WC7FNe" target="_blank">FB</a>
-                                        <a href="https://www.instagram.com/p/DHNS8SNoDo2/?igsh=anFtaHkzZm51MW14" target="_blank">IN</a>
+                                        <a href="https://www.facebook.com/share/p/16D9K3M8w3/?mibextid=WC7FNe"
+                                            target="_blank">FB</a>
+                                        <a href="https://www.instagram.com/p/DHNS8SNoDo2/?igsh=anFtaHkzZm51MW14"
+                                            target="_blank">IN</a>
                                     </div>
                                 </div>
                             </div>
@@ -60,13 +64,15 @@
                                             data-background="/assets/img/team/team-5.jpg"></div>
                                     </div>
                                     <div class="lv-photography-member-content text-center">
-                                        <a href="team"
-                                            class="lv-photography-member-designation-link">Event Coordinator</a>
+                                        <a href="team" class="lv-photography-member-designation-link">Event
+                                            Coordinator</a>
                                         <h5 class="lv-photography-member-name"><a href="team">Chamara Fernando
                                             </a></h5>
                                         <div class="lv-photography-member-social-links">
-                                            <a href="https://www.facebook.com/share/p/16D9K3M8w3/?mibextid=WC7FNe" target="_blank">FB</a>
-                                            <a href="https://www.instagram.com/p/DHNS8SNoDo2/?igsh=anFtaHkzZm51MW14" target="_blank">IN</a>
+                                            <a href="https://www.facebook.com/share/p/16D9K3M8w3/?mibextid=WC7FNe"
+                                                target="_blank">FB</a>
+                                            <a href="https://www.instagram.com/p/DHNS8SNoDo2/?igsh=anFtaHkzZm51MW14"
+                                                target="_blank">IN</a>
                                         </div>
                                     </div>
                                 </div>
@@ -87,7 +93,7 @@
                             data-background="/assets/img/gallery/gallery-carousel-1.jpg"></div>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
 </div>

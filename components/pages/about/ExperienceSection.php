@@ -38,7 +38,7 @@
                     <div class="lv-experience-right-img-1-1 bg-default"
                         data-background="/assets/img/gallery/experience.jpg">
                         <div class="lv-experience-play-btn-1-1 lv-experience-space-reverce-1-1">
-                            <a href="https://www.youtube.com/watch?v=Ebv9_rNb5Ig" class="popup-video">
+                            <a href="" class="popup-video">
                                 <i class="fas fa-play"></i>
                             </a>
                             <span class="lv-experience-play-label-1-1">Watch <br>how we work</span>

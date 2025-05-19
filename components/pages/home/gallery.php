@@ -35,7 +35,7 @@
             <div class="lv-single-featured-gallery pb-65">
                <a href="portfolio-details">
                   <div class="lv-single-featured-gallery-img lv-single-featured-gallery-img-1 bg-default"
-                     data-background="/assets/img/gallery/gallery-1.jpg"></div>
+                     data-background="/assets/img/gallery/gallery-1.png"></div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
                   <!-- <h5 class="lv-single-featured-gallery-subtitle">Poruwa Ceremony</h5> -->
@@ -61,7 +61,7 @@
             <div class="lv-single-featured-gallery pb-65">
                <a href="portfolio-details">
                   <div class="lv-single-featured-gallery-img lv-single-featured-gallery-img-2 bg-default"
-                     data-background="/assets/img/gallery/gallery-2.jpg">
+                     data-background="/assets/img/gallery/gallery-2.webp">
                   </div>
                </a>
                <div class="lv-single-featured-gallery-content text-center pt-40">
