@@ -1,3 +1,18 @@
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Portfolio Details - Discover our wedding and event planning portfolio. LaRosa - Wedding & Event Planning.">
+   <meta name="keywords" content="portfolio, wedding, event, planning, LaRosa">
+   <meta property="og:title" content="Portfolio Details | LaRosa - Wedding & Event Planning">
+   <meta property="og:description" content="Explore our portfolio for inspiration on weddings and events planned by LaRosa.">
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="https://yourdomain.com/portfolio-details">
+   <meta property="og:image" content="https://yourdomain.com/assets/img/breadcrumb/breadcrumb-bg.jpg">
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="Portfolio Details | LaRosa - Wedding & Event Planning">
+   <meta name="twitter:description" content="Explore our portfolio for inspiration on weddings and events planned by LaRosa.">
+   <meta name="twitter:image" content="https://yourdomain.com/assets/img/breadcrumb/breadcrumb-bg.jpg">
+</head>
 <?php
 /**
  * Portfolio Details Page

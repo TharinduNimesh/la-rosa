@@ -1,5 +1,21 @@
 <head>
     <title>404 - Page Not Found | LaRosa - Wedding & Event Planning</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="404 Not Found - The page you are looking for might have been removed, had its name changed, or is temporarily unavailable. LaRosa - Wedding & Event Planning.">
+    <meta name="keywords" content="404, not found, error, wedding, event, planning, LaRosa">
+    <meta property="og:title" content="404 - Page Not Found | LaRosa - Wedding & Event Planning">
+    <meta property="og:description"
+        content="404 Not Found - The page you are looking for might have been removed, had its name changed, or is temporarily unavailable. LaRosa - Wedding & Event Planning.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/404">
+    <meta property="og:image" content="https://yourdomain.com/assets/img/breadcrumb/breadcrumb-bg.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="404 - Page Not Found | LaRosa - Wedding & Event Planning">
+    <meta name="twitter:description"
+        content="404 Not Found - The page you are looking for might have been removed, had its name changed, or is temporarily unavailable. LaRosa - Wedding & Event Planning.">
+    <meta name="twitter:image" content="https://yourdomain.com/assets/img/breadcrumb/breadcrumb-bg.jpg">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.png">
 

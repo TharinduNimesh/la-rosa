@@ -1,3 +1,21 @@
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description"
+      content="Shop our exclusive collection of wedding and event planning products. Find everything you need for your special day at LaRosa - Wedding & Event Planning.">
+   <meta name="keywords" content="wedding products, event planning supplies, wedding accessories, LaRosa, wedding shop">
+   <meta property="og:title" content="Shop Products | LaRosa - Wedding & Event Planning">
+   <meta property="og:description"
+      content="Discover our premium selection of wedding and event planning products. Quality items carefully curated for your special occasions.">
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="https://yourdomain.com/shop">
+   <meta property="og:image" content="https://yourdomain.com/assets/img/shop/product-preview.jpg">
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="Shop Products | LaRosa - Wedding & Event Planning">
+   <meta name="twitter:description"
+      content="Discover our premium selection of wedding and event planning products. Quality items carefully curated for your special occasions.">
+   <meta name="twitter:image" content="https://yourdomain.com/assets/img/shop/product-preview.jpg">
+</head>
 <?php
 /**
  * Shop Page

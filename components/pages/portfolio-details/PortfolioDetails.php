@@ -12,7 +12,7 @@ $categoryFolders = array_filter(glob($galleryBaseDir . '*'), 'is_dir');
             <div class="col-xxl-7 col-xl-7 col-lg-6 col-md-12">
                 <?php include BASE_PATH . '/components/pages/portfolio-details/PortfolioGallery.php'; ?>
             </div>
+            <?php include BASE_PATH . '/components/pages/portfolio-details/PortfolioNavigation.php'; ?>
         </div>
-        <?php include BASE_PATH . '/components/pages/portfolio-details/PortfolioNavigation.php'; ?>
     </div>
 </div>

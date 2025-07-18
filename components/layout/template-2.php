@@ -4,35 +4,57 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title><?php echo isset($page_title) ? $page_title : 'LaRosa - Wedding & Event Planning'; ?></title>
-    <meta name="description" content="">
+    <title><?= ($page_title ?? '') ? "$page_title | LaRosa" : 'LaRosa - Wedding & Event Planning' ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="<?= $page_description ?? 'LaRosa offers premium wedding and event planning services. Transform your special day into an unforgettable experience with our expert team.' ?>">
+    <meta name="keywords"
+        content="<?= $page_keywords ?? 'wedding planning, event planning, luxury events, wedding services, LaRosa events' ?>">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title"
+        content="<?= ($page_title ?? '') ? "$page_title | LaRosa" : 'LaRosa - Wedding & Event Planning' ?>">
+    <meta property="og:description"
+        content="<?= $page_description ?? 'LaRosa offers premium wedding and event planning services. Transform your special day into an unforgettable experience with our expert team.' ?>">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?= $current_url ?? 'https://larosaflora.com' ?>">
+    <meta property="og:image"
+        content="<?= $og_image ?? 'public/assets/img/og-default.jpg' ?>">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title"
+        content="<?= ($page_title ?? '') ? "$page_title | LaRosa" : 'LaRosa - Wedding & Event Planning' ?>">
+    <meta name="twitter:description"
+        content="<?= $page_description ?? 'LaRosa offers premium wedding and event planning services. Transform your special day into an unforgettable experience with our expert team.' ?>">
+    <meta name="twitter:image"
+        content="<?= $og_image ?? 'public/assets/img/og-default.jpg' ?>">
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.png">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="/assets/css/preloader.css">
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/meanmenu.css">
-    <link rel="stylesheet" href="/assets/css/animate.min.css">
-    <link rel="stylesheet" href="/assets/css/cursor.css">
-    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/assets/css/swiper-bundle.css">
-    <link rel="stylesheet" href="/assets/css/backToTop.css">
-    <link rel="stylesheet" href="/assets/css/whatsapp.css">
-    <link rel="stylesheet" href="/assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="/assets/css/nice-select.css">
-    <link rel="stylesheet" href="/assets/css/fontAwesome5Pro.css">
-    <link rel="stylesheet" href="/assets/css/flaticon.css">
-    <link rel="stylesheet" href="/assets/css/default.css">
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="public/assets/css/preloader.css">
+    <link rel="stylesheet" href="public/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/assets/css/meanmenu.css">
+    <link rel="stylesheet" href="public/assets/css/animate.min.css">
+    <link rel="stylesheet" href="public/assets/css/cursor.css">
+    <link rel="stylesheet" href="public/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="public/assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="public/assets/css/backToTop.css">
+    <link rel="stylesheet" href="public/assets/css/whatsapp.css">
+    <link rel="stylesheet" href="public/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="public/assets/css/nice-select.css">
+    <link rel="stylesheet" href="public/assets/css/fontAwesome5Pro.css">
+    <link rel="stylesheet" href="public/assets/css/flaticon.css">
+    <link rel="stylesheet" href="public/assets/css/default.css">
+    <link rel="stylesheet" href="public/assets/css/main.css">
 </head>
 
 <body>
     <!-- background animation -->
     <?php include BASE_PATH . '/components/shared/bgAnimation.php'; ?>
-    
+
     <!-- Load Preloader Component -->
     <?php include BASE_PATH . '/components/layout/preloader/preloader.php'; ?>
 
@@ -81,25 +103,25 @@
 
     <!-- JS here -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="/assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/meanmenu.js"></script>
-    <script src="/assets/js/swiper-bundle.min.js"></script>
-    <script src="/assets/js/magnific-popup.min.js"></script>
-    <script src="/assets/js/jarallax.min.js"></script>
-    <script src="/assets/js/appair.min.js"></script>
-    <script src="/assets/js/odometer.min.js"></script>
-    <script src="/assets/js/jquery-ui-slider-range.js"></script>
-    <script src="/assets/js/cursor.js"></script>
-    <script src="/assets/js/backToTop.js"></script>
-    <script src="/assets/js/nice-select.min.js"></script>
-    <script src="/assets/js/ajax-form.js"></script>
-    <script src="/assets/js/wow.min.js"></script>
-    <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="/assets/js/isotope.pkgd.min.js"></script>
-    <script src="/assets/js/currency-converter.js"></script>
-    <script src="/assets/js/shop-filters.js"></script>
-    <script src="/assets/js/main.js"></script>
+    <script src="public/assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="public/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="public/assets/js/meanmenu.js"></script>
+    <script src="public/assets/js/swiper-bundle.min.js"></script>
+    <script src="public/assets/js/magnific-popup.min.js"></script>
+    <script src="public/assets/js/jarallax.min.js"></script>
+    <script src="public/assets/js/appair.min.js"></script>
+    <script src="public/assets/js/odometer.min.js"></script>
+    <script src="public/assets/js/jquery-ui-slider-range.js"></script>
+    <script src="public/assets/js/cursor.js"></script>
+    <script src="public/assets/js/backToTop.js"></script>
+    <script src="public/assets/js/nice-select.min.js"></script>
+    <script src="public/assets/js/ajax-form.js"></script>
+    <script src="public/assets/js/wow.min.js"></script>
+    <script src="public/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="public/assets/js/isotope.pkgd.min.js"></script>
+    <script src="public/assets/js/currency-converter.js"></script>
+    <script src="public/assets/js/shop-filters.js"></script>
+    <script src="public/assets/js/main.js"></script>
 </body>
 
 </html>

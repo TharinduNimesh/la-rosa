@@ -1,3 +1,21 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Shop online for wedding and event planning services at LaRosa. Browse our exclusive collection of wedding packages and event planning solutions.">
+    <meta name="keywords" content="wedding shop, event planning, wedding packages, LaRosa, wedding services">
+    <meta property="og:title" content="Shop | LaRosa - Wedding & Event Planning">
+    <meta property="og:description"
+        content="Shop online for wedding and event planning services at LaRosa. Browse our exclusive collection of wedding packages and event planning solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/shop">
+    <meta property="og:image" content="https://yourdomain.com/assets/img/breadcrumb/breadcrumb-bg.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Shop | LaRosa - Wedding & Event Planning">
+    <meta name="twitter:description"
+        content="Shop online for wedding and event planning services at LaRosa. Browse our exclusive collection of wedding packages and event planning solutions.">
+    <meta name="twitter:image" content="https://yourdomain.com/assets/img/breadcrumb/breadcrumb-bg.jpg">
+</head>
 <?php
 /**
  * Shop Page
